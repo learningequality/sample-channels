@@ -1,0 +1,128 @@
+{
+    "question": {
+        "content": "Read this text and answer the questions below\n\n[[☃ passage 1]]\n\n[[☃ explanation 1]]\n\nWhat is this passage about?\n[[☃ radio 1]]\n\n",
+        "images": {},
+        "widgets": {
+            "passage 1": {
+                "type": "passage",
+                "alignment": "default",
+                "static": false,
+                "graded": true,
+                "options": {
+                    "static": false,
+                    "passageTitle": "Some text title",
+                    "passageText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n",
+                    "footnotes": "a footnote",
+                    "showLineNumbers": false
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "explanation 1": {
+                "type": "explanation",
+                "alignment": "default",
+                "static": false,
+                "graded": true,
+                "options": {
+                    "static": false,
+                    "showPrompt": "Explain",
+                    "hidePrompt": "Hide explanation",
+                    "explanation": "explanation goes here\n\nmore explanation",
+                    "widgets": {}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "radio 1": {
+                "type": "radio",
+                "alignment": "default",
+                "static": false,
+                "graded": true,
+                "options": {
+                    "choices": [
+                        {
+                            "content": "Option one",
+                            "correct": true
+                        },
+                        {
+                            "content": "Option two"
+                        },
+                        {
+                            "isNoneOfTheAbove": false,
+                            "content": "Option three"
+                        },
+                        {
+                            "isNoneOfTheAbove": false,
+                            "content": "Option four"
+                        }
+                    ],
+                    "randomize": false,
+                    "multipleSelect": true,
+                    "countChoices": false,
+                    "displayCount": null,
+                    "hasNoneOfTheAbove": false,
+                    "deselectEnabled": false
+                },
+                "version": {
+                    "major": 1,
+                    "minor": 0
+                }
+            },
+            "expression 1": {
+                "options": {
+                    "answerForms": [
+                        {
+                            "considered": "correct",
+                            "form": false,
+                            "key": 0,
+                            "simplify": false,
+                            "value": ""
+                        }
+                    ],
+                    "buttonSets": [
+                        "basic"
+                    ],
+                    "functions": [
+                        "f",
+                        "g",
+                        "h"
+                    ],
+                    "times": false,
+                    "static": false
+                },
+                "type": "expression",
+                "version": {
+                    "major": 1,
+                    "minor": 0
+                },
+                "graded": true,
+                "alignment": "default",
+                "static": false
+            }
+        }
+    },
+    "answerArea": {
+        "calculator": false,
+        "chi2Table": false,
+        "periodicTable": false,
+        "tTable": false,
+        "zTable": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": [
+        {
+            "replace": false,
+            "content": "Hint one.",
+            "images": {},
+            "widgets": {}
+        }
+    ]
+}
+
