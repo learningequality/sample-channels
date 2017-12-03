@@ -1,11 +1,26 @@
-React app
-=========
+React app sample
+================
 
 App created using
 
     create-react-app html5_react
 
 to creathe the HTML5App zip file from this folder, run `update.sh` and will generate webroot.zip
+
+
+Issues
+------
+
+  - The svg logo import doesn't work
+
+        import logo from './logo.svg';
+
+    somehow reoslves to `e.exports=n.p+"static/media/logo.5d5d9eef.svg"` inside `build/static/js/main.c675f7f7.js` which results in 
+    GET http://studio.learningequality.org/static/media/logo.5d5d9eef.svg 404 (Not Found)
+
+
+
+
 
 
 
