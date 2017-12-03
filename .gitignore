@@ -1,3 +1,30 @@
+
+
+channels/ricecooker_channel/data
+channels/ricecooker_channel/content
+channels/csv_channel/content
+
+
+credentials
+
+
+#JS stuff
+package-lock.json
+node_modules
+
+
+contentnodes/*/webroot
+contentnodes/*/yarn.lock
+
+
+csv_channel/content/sample-csv-channel-root
+json_channel/content/sample-json-channel-files
+
+restore
+storage
+.ricecookerfilecache
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
