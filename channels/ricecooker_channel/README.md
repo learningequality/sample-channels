@@ -1,8 +1,7 @@
 Python interface
 ================
 
-Naming: Our ETL scripts are called sushi chefs scripts. We eat a lot of sushi as
-a result o this ;)
+Naming: Our ETL scripts are called sushi chefs scripts. We eat a lot of sushi as a result o this ;)
 
 
 Inputs:
@@ -17,20 +16,21 @@ Inputs:
     - `exercise` (json)
 
 
-Side effects:
+Operation:
 
+  - Check channel tree and metadata valid
+  - Calls Studio internal APIs (sequence of steps using multiple API endpoints)
+    - Upload tree structure
+    - Get files diff for files already on Studio
+    - Upload new files
+    - Commit tree
   - Channel created on Kolibri Studio
-     - Check channel metadata valid
-     - Begin transaction
-       - Upload structure
-       - Get files diff for files alrady on Studio
-       - Upload new files
-       - Commit tree
-       - optional: ACTIVATE / PUBLISH
+    - optional: ACTIVATE / PUBLISH
+
 
 Outputs:
 
-  - URL of channel studio where you can view for (review, ACTIVATE/PUBLISH/etc.)
+  - URL of channel on Kolibri Studio where you can view, review, ACTIVATE/PUBLISH, etc.
 
 
 
@@ -39,7 +39,7 @@ Outputs:
 Use case
 --------
   - Best interface for working with Kolibri Studio
-  - Many examples available to imitate. See all the repositires that start with
+  - Many examples available to imitate. See the repos that start with
     `sushi-chef-`... on [github](https://github.com/learningequality/).
 
 
@@ -54,11 +54,12 @@ Usage
 
 See all CLI args and options here:
 
-   ./chef.py -h
+    ./chef.py -h
+
 
 
 
 Links
 -----
-See also `souschef` workflow which is the same format of CSV, but CSVs are generated
-programatically using Python (or could use `ruby` or `js`).
+Ricecooker docs: https://github.com/learningequality/ricecooker/tree/master/docs
+
