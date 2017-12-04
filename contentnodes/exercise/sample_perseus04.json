@@ -1,0 +1,54 @@
+{
+    "question": {
+        "content": "What was the main idea in the passage you just read?\n\n[[☃ radio 1]]\n\n",
+        "images": {},
+        "widgets": {
+            "radio 1": {
+                "type": "radio",
+                "alignment": "default",
+                "static": false,
+                "graded": true,
+                "options": {
+                    "choices": [
+                        {
+                            "content": "The right answer",
+                            "correct": true
+                        },
+                        {
+                            "content": "Another option",
+                            "correct": false
+                        },
+                        {
+                            "isNoneOfTheAbove": false,
+                            "content": "Nope, not this",
+                            "correct": false
+                        }
+                    ],
+                    "randomize": false,
+                    "multipleSelect": false,
+                    "countChoices": false,
+                    "displayCount": null,
+                    "hasNoneOfTheAbove": false,
+                    "deselectEnabled": false
+                },
+                "version": {
+                    "major": 1,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "calculator": false,
+        "chi2Table": false,
+        "periodicTable": false,
+        "tTable": false,
+        "zTable": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}
+
