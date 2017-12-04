@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-export TEXT_SLUG="the-supreme-court-s-ruling-in-brown-vs-board-of-education"
-
 if [ -d webroot ]; then
   rm -rf webroot
 fi

@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-export TEXT_SLUG="the-supreme-court-s-ruling-in-brown-vs-board-of-education"
 
 if [ -d webroot ]; then
   rm -rf webroot
@@ -15,6 +14,7 @@ fi
 if [ ! -d node_modules ]; then
   yarn install
 fi
+
 
 npm run build
 
