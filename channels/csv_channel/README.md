@@ -29,6 +29,32 @@ Use case
 
 Metadata details
 ----------------
+
+### Files
+All content files and thumnails must be organized as nested folders on the file system:
+
+    content/
+    ├── Channel.csv
+    ├── Content.csv
+    └── sample-csv-channel-root
+        ├── channel_thumbnail.jpg
+        └── contentnodes
+            ├── audio
+            │   └── Whale_sounds.mp3
+            ├── document
+            │   └── commonlit_the-supreme-court-s-ruling-in-brown-vs-board-of-education_student.pdf
+            ├── html5
+            │   ├── html5_react.jpg
+            │   ├── html5_react.zip
+            │   ├── html5_vuejs.jpg
+            │   ├── html5_vuejs.zip
+            │   ├── html5_wget_scraped.jpg
+            │   └── html5_wget_scraped.zip
+            └── video
+                └── Wave_particle_duality.mp4
+
+
+### Channel metadata
 Channel metadata must be provided the file `Channel.csv` which should live next
 to the channel root folder. The channel metadata fields are:
   - `Title`: The name of the channel as it will shown to users.
@@ -39,6 +65,7 @@ to the channel root folder. The channel metadata fields are:
      representation: [see full list here](https://github.com/learningequality/le-utils/blob/master/le_utils/resources/languagelookup.json).
   - `Thumbnail`: path to a thumbnail file for the channel (will be displayed when browsing channels, optional)
 
+### Content metadata
 For each file in the directory structure, an appropriate metadata entry must be
 provided in the file `Content.csv`:
   - `Path *`: File or directory path relative to the root of the zip file for
