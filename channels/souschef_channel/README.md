@@ -4,10 +4,14 @@ Ricecooker's JsonChef-based workflow
 
 Simplified interface for ricecooker:
   - Supported formats are `document`(PDF), `audio` (mp3), `video` (mp4), and `html5` (zip), but not exercises
-  - Defines an informal "portable channel archive" format that consists of a giant zip file containing:
+  - Defines an informal "portable channel archive" format that consists of a zip file containing:
       - Channel files are organized into a directory hierarchy on the local filesystem
-      - Channel metadata provided in Chaannel.csv
-      - Files metadata provided in Content.csv
+      - Channel metadata provided in `Chaannel.csv`
+      - Files metadata provided in `Content.csv`
+
+
+Note this is the same format as used by the [CSV-based workflow](../csv_channel),
+but we've zipped the source content directory.
 
 
 Use cases
@@ -36,17 +40,25 @@ Unintended benefits of CSV+files_in_.zip archive format:
   - ability to transport channel from one machine to another
   - files stored within zip file so no possibility of Win32 / UNIX path sep. confusion
 
+Alternatively you can use your favourite language to produce ricecooker json format
+and then use the [JsonTreeChef-based workflow](../jsontree_channel).
 
+
+
+Details
+-------
+See here for how to write a souschef script:  
+https://github.com/learningequality/ricecooker/blob/master/docs/souschef.md
+
+For sample souschef scripts, see the examples directory:
+https://github.com/learningequality/cookiecutter-chef/tree/master/%7B%7Bcookiecutter.project_slug%7D%7D/examples
 
 
 
 Usage
 -----
+
 You can run the whole ETL pipeline `souschef.py`, unzip, `LineCook` script as follows:
-
-    ./run.sh
-
-or if you prefer to do the steps manually, this is what `run.sh` does:
 
     ./souschef.py
 
@@ -61,4 +73,4 @@ or if you prefer to do the steps manually, this is what `run.sh` does:
         --token="../../credentials/studiotoken.txt" \
         --channeldir="./content/${ARCHIVE_NAME}"
 
-
+Note the third part of this workflow is identical to the [CSV-based](../csv_channel) workflow.
