@@ -75,6 +75,9 @@ Usage
       --token="../../credentials/studiotoken.txt" \
       --channeldir='./content/sample-csv-channel-root'
 
+If you get an error when running the linecook script (in the end), you might
+have to change the channel source id in `Channel.csv`, or ask the LE team to
+make you an editor for the channel with this source id.
 
 This above commands will create or update the channel on Kolibri Studio. As part
 of the upload process, the file `chefdata/trees/ricecooker_json_tree.json` which
