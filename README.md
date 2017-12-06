@@ -26,12 +26,12 @@ The following options are available for importing content into Kolibri Studio:
      - BAD FOR: large channels, channels that need to be updated regularly
   - Studio low level internal API (**not recommended**, use `ricecooker` instead)
   - Ricecooker interfaces, based on the [`ricecooker`](https://github.com/learningequality/ricecooker) library:
-      - CSV interface, see [channels/csv_channel](./channels/csv_channel]:
+      - CSV interface, see [channels/csv_channel](./channels/csv_channel):
          - GOOD FOR: quick prototypes, non-technical project lead (no need for code, use Excel to prepare CSVs)
          - BAD FOR: large channels, channels that need to be updated regularly
-      - JSON tree interface, see [channels/jsontree_channel](./channels/jsontree_channel]:
+      - JSON tree interface, see [channels/jsontree_channel](./channels/jsontree_channel):
          - GOOD FOR: if content structure can be generated from existing code in other languages (e.g. ruby/js)
-      - Python interface, see [channels/ricecooker_channel](./channels/ricecooker_channel]:
+      - Python interface, see [channels/ricecooker_channel](./channels/ricecooker_channel):
          - GOOD FOR: most control and extensibility
 
 
