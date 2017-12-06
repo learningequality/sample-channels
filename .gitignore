@@ -3,6 +3,8 @@
 channels/ricecooker_channel/data
 channels/ricecooker_channel/content
 channels/csv_channel/content/sample-csv-channel-root
+channels/csv_channel/chefdata/trees/ricecooker_json_tree.json
+channels/jsontree_channel/content/sample-json-channel-files
 
 
 credentials

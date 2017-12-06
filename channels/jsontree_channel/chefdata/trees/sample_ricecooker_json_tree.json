@@ -1,0 +1,197 @@
+{
+  "title": "Sample JSON channel",
+  "description": "This channel was created from the files in the content/ directory and the metadata provided in ricecooker_json_tree.json",
+  "source_domain": "source.org",
+  "source_id": "sample-json-channel",
+  "language": "en",
+  "thumbnail": "./content/sample-json-channel-files/channel_thumbnail.jpg",
+  "children": [
+    {
+      "kind": "topic",
+      "source_id": "121232ms",
+      "title": "Content Nodes",
+      "description": "Put folder description here",
+      "author": null,
+      "language": "en",
+      "license": null,
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "topic",
+          "source_id": "138iuh23iu",
+          "title": "Audio Files",
+          "description": "Put folder description here",
+          "author": null,
+          "language": "en",
+          "license": null,
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "audio",
+              "source_id": "940ac8ff",
+              "title": "Whale sounds",
+              "author": "First Last (author's name)",
+              "description": "Put file description here",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY",
+                "description": null,
+                "copyright_holder": "Copyright holder name"
+              },
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "audio",
+                  "path": "./content/sample-json-channel-files/Whale_sounds.mp3",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "asanlksnaklsn",
+          "title": "Document Nodes",
+          "description": "Put folder description here",
+          "author": null,
+          "language": "en",
+          "license": null,
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "document",
+              "source_id": "80b7136f",
+              "title": "The Supreme Court\u2019s Ruling in Brown vs. Board of Education",
+              "author": "First Last (author's name)",
+              "description": "Put file description here",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY",
+                "description": null,
+                "copyright_holder": "Copyright holder name"
+              },
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "document",
+                  "path": "./content/sample-json-channel-files/commonlit_the-supreme-court-s-ruling-in-brown-vs-board-of-education_student.pdf",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "asasa331",
+          "title": "HTML5App Nodes",
+          "description": "Put folder description here",
+          "author": null,
+          "language": "en",
+          "license": null,
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "html5",
+              "source_id": "302723b4",
+              "title": "Sample React app",
+              "author": "First Last (author's name)",
+              "description": "Put file description here",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY",
+                "description": null,
+                "copyright_holder": "Copyright holder name"
+              },
+              "thumbnail": "./content/sample-json-channel-files/html5_react.jpg",
+              "files": [
+                {
+                  "file_type": "html5",
+                  "path": "./content/sample-json-channel-files/html5_react.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "html5",
+              "source_id": "3f91184e",
+              "title": "Sample Vue.js app",
+              "author": "First Last (author's name)",
+              "description": "Put file description here",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY",
+                "description": null,
+                "copyright_holder": "Copyright holder name"
+              },
+              "thumbnail": "./content/sample-json-channel-files/html5_vuejs.jpg",
+              "files": [
+                {
+                  "file_type": "html5",
+                  "path": "./content/sample-json-channel-files/html5_vuejs.zip",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "html5",
+              "source_id": "0aec4296",
+              "title": "Sample wget-scraped web content",
+              "author": "First Last (author's name)",
+              "description": "Put file description here",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY",
+                "description": null,
+                "copyright_holder": "Copyright holder name"
+              },
+              "thumbnail": "./content/sample-json-channel-files/html5_wget_scraped.jpg",
+              "files": [
+                {
+                  "file_type": "html5",
+                  "path": "./content/sample-json-channel-files/html5_wget_scraped.zip",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "source_id": "121213m3m3",
+          "title": "Video Nodes",
+          "description": "Put folder description here",
+          "author": null,
+          "language": "en",
+          "license": null,
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "video",
+              "source_id": "9e355995",
+              "title": "Wave particle duality explained in 2 mins",
+              "author": "First Last (author's name)",
+              "description": "Put file description here",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY",
+                "description": null,
+                "copyright_holder": "Copyright holder name"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "./content/sample-json-channel-files/Wave_particle_duality.mp4",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
