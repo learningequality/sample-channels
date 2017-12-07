@@ -1,6 +1,5 @@
-Ricecooker's JsonChef-based workflow
-====================================
-
+Ricecooker's SousChef workflow
+==============================
 
 Simplified interface for ricecooker:
   - Supported formats are `document`(PDF), `audio` (mp3), `video` (mp4), and `html5` (zip), but not exercises
@@ -36,9 +35,9 @@ You can programatically create CSV + file hierarchy through another language (e.
 So long as it's has supported file types and for each file there is a matching metadata line in Content.csv, it's all good.
 
 Unintended benefits of CSV+files_in_.zip archive format:
-  - a "debugging interface" for all the metadata (can review ans QA in Excel)
+  - a "debugging interface" (can review entire content metadata for Q/A using Excel)
   - ability to transport channel from one machine to another
-  - files stored within zip file so no possibility of Win32 / UNIX path sep. confusion
+  - files stored within zip file so no possibility of Windows/UNIX path separator confusion
 
 Alternatively you can use your favourite language to produce ricecooker json format
 and then use the [JsonTreeChef-based workflow](../jsontree_channel).

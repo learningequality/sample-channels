@@ -1,7 +1,12 @@
 Python interface
 ================
+Before we begin, a note on naming is in order. All our ETL scripts are called
+**sushi chef** scripts. We eat a lot of sushi as a result o this ;)
 
-Naming: Our ETL scripts are called sushi chefs scripts. We eat a lot of sushi as a result o this ;)
+Using the `ricecooker` Python library is the most versatile and powerful approach
+for uploading content to Kolibri Studio.
+
+
 
 
 Inputs:
@@ -11,9 +16,9 @@ Inputs:
   - Supported content types (formats):
     - `document`(PDF)
     - `audio` (mp3)
-    - `video` (mp4)
+    - `video` (mp4) (including subtitles)
     - `html5` (zip),
-    - `exercise` (json)
+    - `exercise` (perseus json, or simple question types)
 
 
 Operation:
@@ -47,14 +52,15 @@ Use case
 Usage
 -----
 
-    ./chef.py -v --reset \
-      --token="../../credentials/studiotoken.txt" \
-      --channeldir='./content/sample-csv-channel-root'
+    ./sushichef.py -v --reset --token="../../credentials/studiotoken.txt"
 
 
 See all CLI args and options here:
 
-    ./chef.py -h
+    ./sushichef.py -h
+
+
+
 
 
 
