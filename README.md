@@ -111,3 +111,5 @@ natively by future version of Kolibri. The Kolibri software architecture is base
 around the plug-in system that is easy to extend. All currently supported content
 type renderers are based on this plug-in architecture. It might be possible to create
 a Kolibri plugin for rendering specific content in custom ways.
+
+
