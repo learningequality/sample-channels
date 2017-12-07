@@ -40,9 +40,9 @@ Install
 -------
 1. Clone this repository and go into it, then run:
 
-    virtualenv -p python3  venv
-    source venv/bin/activate
-    pip install -r requirements.txt
+       virtualenv -p python3  venv
+       source venv/bin/activate
+       pip install -r requirements.txt
 
 2. Crete an account on [Kolibri Studio](http://studio.learningequality.org/)
    and save your access token to the file `credentials/studiotoken.txt` (on a single line)
