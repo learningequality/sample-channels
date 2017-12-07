@@ -36,6 +36,21 @@ The following options are available for importing content into Kolibri Studio:
 
 
 
+Install
+-------
+1. Clone this repository and go into it, then run:
+
+    virtualenv -p python3  venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+
+2. Crete an account on [Kolibri Studio](http://studio.learningequality.org/)
+   and save your access token to the file `credentials/studiotoken.txt` (on a single line)
+
+3. Follow the instructions in the README.md files in each sample channel directory.
+
+
+
 
 Extra notes on supported content types
 ======================================
