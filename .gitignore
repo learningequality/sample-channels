@@ -1,9 +1,15 @@
 
+   .webcache             chefdata              linecook.py           run.sh                wikipedia_souschef.py
+..                    .ricecookerfilecache  README.md             content               restore               storage
+(venv) ivan@probook ~/P/F/s/c/souschef_channel>
+
 
 channels/ricecooker_channel/data
 channels/ricecooker_channel/content
 channels/csv_channel/content/sample-csv-channel-root
 channels/csv_channel/chefdata/trees/ricecooker_json_tree.json
+channels/souschef_channel/content
+channels/souschef_channel/chefdata
 channels/jsontree_channel/content/sample-json-channel-files
 
 
@@ -25,6 +31,7 @@ json_channel/content/sample-json-channel-files
 restore
 storage
 .ricecookerfilecache
+.webcache
 
 
 # Byte-compiled / optimized / DLL files

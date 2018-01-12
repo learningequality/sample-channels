@@ -57,19 +57,11 @@ https://github.com/learningequality/cookiecutter-chef/tree/master/%7B%7Bcookiecu
 Usage
 -----
 
-You can run the whole ETL pipeline `souschef.py`, unzip, `LineCook` script as follows:
+You can run the whole ETL pipeline `wikipedia_souschef.py`, unzip, `LineCook` script as follows:
 
-    ./souschef.py
+    ./run.sh
 
-    ARCHIVE_NAME="souschef-sample-channel-root"
-    mkdir content
-    mv ${ARCHIVE_NAME}.zip content/
-    cd content
-    unzip -oq ${ARCHIVE_NAME}.zip
-    cd ..
 
-    ./linecook.py -v --reset \
-        --token="../../credentials/studiotoken.txt" \
-        --channeldir="./content/${ARCHIVE_NAME}"
+Note: the souschef-workflow is essentially identical to the [CSV-based](../csv_channel) workflow after the archive is unzipped.
 
-Note the third part of this workflow is identical to the [CSV-based](../csv_channel) workflow.
+
