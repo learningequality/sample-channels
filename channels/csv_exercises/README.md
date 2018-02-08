@@ -47,9 +47,6 @@ Install
 Usage
 -----
 
-    # copy files from ../contentnodes/?? to content/sample-csv-channel-root/
-    ./update.sh
-
     ./linecook.py -v --reset \
       --token="../../credentials/studiotoken.txt" \
       --channeldir='./content/sample-csv-channel-root'
