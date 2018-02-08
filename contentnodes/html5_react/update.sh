@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+npm -g install yarn
+
 
 if [ -d webroot ]; then
   rm -rf webroot
