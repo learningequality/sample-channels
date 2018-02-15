@@ -1,2 +1,2 @@
 Title,Description,Domain,Source ID,Language,Thumbnail
-Sample CSV channel,This channel was created from the files in the content/ directory and the metadata stored in CSV files,source.org,Sample-csv-channel,en,./channel_thumbnail.jpg
+Sample CSV channel,This channel was created from the files in the content/ directory and the metadata stored in CSV files,source.org,Sample-csv-channel,en,sample-csv-channel-root/channel_thumbnail.jpg
