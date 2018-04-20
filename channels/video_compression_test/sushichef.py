@@ -108,9 +108,8 @@ class SikanaVideoCompressionTestChef(SushiChef):
         # B: Compressed videos
         for crf in CRF_CHOICES:
             topic_title = 'B' + str(crf) + ': Compressed with crf=' + str(crf)
-            b_topic = make_topic_for_settings(topic_title, ffmpeg_settings={'crf': crf})
+            b_topic = make_topic_for_settings(topic_title, ffmpeg_settings={'crf': crf, 'max_height': 5000})
             channel.add_child(b_topic)
-        
 
         # C: Resized and compressed videos
         for crf in CRF_CHOICES:
