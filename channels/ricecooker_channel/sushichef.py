@@ -43,13 +43,13 @@ class SampleChef(SushiChef):
         """
         channel = self.get_channel(*args, **kwargs)   # create ChannelNode from data in self.channel_info
 
-        print('An ordinary print 1')
+        print('An ordinary print 1', flush=True)
         LOGGER.debug('A testing debug message should not be printed')
         LOGGER.info('Basic INFO message -- should be printed')
         LOGGER.warning('A WARN level message')
         LOGGER.error('An ERROR level message')
         LOGGER.critical('A CRITICAL level message')
-        print('An ordinary print 2')
+        print('An ordinary print 2', flush=True)
 
         self.create_content_nodes(channel)
         self.create_exercise_nodes(channel)
