@@ -78,6 +78,21 @@ class ContentNodeDependencyChef(SushiChef):
         )
         topic13.add_child(content13a)
 
+        content13b = HTML5AppNode(
+              source_id='302723b5',
+              title='Thin app 1',
+              author='First Last (author\'s name)',
+              description='Put file description here',
+              language=getlang('en').id,
+              license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
+              thumbnail=None,
+              files=[HTMLZipFile(
+                          path='./content/zipfiles/thinapp1.zip',
+                          language=getlang('en').id
+                     )]
+        )
+        topic13.add_child(content13b)
+
         raise_for_invalid_channel(channel)
         return channel
 
