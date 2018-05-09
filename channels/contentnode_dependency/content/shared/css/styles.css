@@ -1,0 +1,165 @@
+/*
+ * Loosely based on the Kolibri style guide, but modified to optimize for
+ * readability and for ability to match current Kolibri styling or potential
+ * modifications to styling and color scheme.
+ */
+
+/* Layout and sidebar */
+
+body {
+    background: white;
+    color: #333;
+    font-family: 'Noto Sans', NotoSans, sans-serif;
+    letter-spacing: .01em;
+    line-height: 1.55;
+    padding: 0;
+    margin: 0;
+}
+
+.main-content {
+    margin: auto;
+    max-width: 700px;
+    padding: 24px;
+    font-size: 19px;
+}
+
+.main-content-with-sidebar {
+    max-width: 700px;
+    padding: 36px;
+    margin-left: 250px;
+    font-size: 17px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    background: #f7f7f7;
+    border-right: 1px solid #e0e0e0;
+    padding-top: 24px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar .sidebar-link {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.sidebar .sidebar-link:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.sidebar .toggle-sidebar-button {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        font-size: 16px;
+    }
+
+    .main-content {
+        padding: 16px;
+    }
+
+    .main-content-with-sidebar {
+        margin: 0;
+        padding: 16px;
+    }
+
+    .sidebar {
+        background: #f7f7f7;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.05) 1px 1px;
+    }
+
+    .sidebar .sidebar-link:not(:first-child) {
+        display: none;
+    }
+
+    .sidebar .toggle-sidebar-button {
+        display: inline-block;
+    }
+
+    .sidebar .sidebar-items {
+        max-height: 0;
+        transition: max-height 0.4s ease;
+    }
+
+    .sidebar.visible .sidebar-items {
+        max-height: 1000px;
+    }
+}
+
+/* Typography */
+
+h1 {
+    font-size: 1.5em;
+    margin: .67em 0;
+}
+
+h2 {
+    font-size: 1.17em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    display: inline;
+}
+
+/* Elements */
+
+img {
+    max-width: 100%;
+}
+
+.button {
+    box-shadow: 0 1px 5px rgba(0,0,0,.2), 0 2px 2px rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12);
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    margin: 8px;
+    padding: 0 16px;
+    min-width: 64px;
+    min-height: 36px;
+    border-radius: 2px;
+    transition: all .4s cubic-bezier(.25,.8,.25,1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: white;
+    color: #3a3a3a;
+}
+
