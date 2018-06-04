@@ -63,21 +63,6 @@ class ContentNodeDependencyChef(SushiChef):
         )
         topic1.add_child(topic13)
 
-        content13a = HTML5AppNode(
-              source_id='302723b4',
-              title='Shared Zip File app',
-              author='First Last (author\'s name)',
-              description='Put file description here',
-              language=getlang('en').id,
-              license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
-              thumbnail=None,
-              files=[HTMLZipFile(
-                          path='./content/zipfiles/shared.zip',
-                          language=getlang('en').id
-                     )]
-        )
-        topic13.add_child(content13a)
-
         content13b = HTML5AppNode(
               source_id='302723b5',
               title='Thin app 1',
@@ -87,6 +72,11 @@ class ContentNodeDependencyChef(SushiChef):
               license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
               thumbnail=None,
               files=[HTMLZipFile(
+                          preset=format_presets.HTML5_DEPENDENCY_ZIP,
+                          path='./content/zipfiles/shared.zip',
+                          language=getlang('en').id
+                     ),
+                     HTMLZipFile(
                           path='./content/zipfiles/thinapp1.zip',
                           language=getlang('en').id
                      )]
