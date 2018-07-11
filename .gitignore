@@ -1,7 +1,9 @@
 
-   .webcache             chefdata              linecook.py           run.sh                wikipedia_souschef.py
-..                    .ricecookerfilecache  README.md             content               restore               storage
-(venv) ivan@probook ~/P/F/s/c/souschef_channel>
+contentnodes/html5_react/webroot
+contentnodes/html5_wget_scraped/webroot
+contentnodes/html5_vuejs/webroot
+
+
 
 
 channels/ricecooker_channel/data
@@ -22,7 +24,6 @@ package-lock.json
 node_modules
 
 
-contentnodes/*/webroot
 contentnodes/*/yarn.lock
 
 
