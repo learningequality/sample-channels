@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from le_utils.constants import format_presets, licenses, exercises
+from le_utils.constants import licenses, exercises
 from le_utils.constants.languages import getlang  # see also getlang_by_name, getlang_by_alpha2
 from ricecooker.chefs import SushiChef
 from ricecooker.classes.nodes import TopicNode
@@ -54,7 +54,7 @@ class SampleChef(SushiChef):
         hierarchy of topic nodes and content nodes. Every content node is associated
         with the underlying file node.
         """
-        topic1 = TopicNode(
+        content_nodes_folder = TopicNode(
                 source_id='121232ms',
                 title='Content Nodes',
                 description='Put folder description here',
@@ -62,10 +62,10 @@ class SampleChef(SushiChef):
                 language=getlang('en').id,
                 thumbnail=None,
         )
-        channel.add_child(topic1)
+        channel.add_child(content_nodes_folder)
 
         # AUDIO
-        topic11 = TopicNode(
+        audio_nodes_folder = TopicNode(
                 source_id='138iuh23iu',
                 title='Audio Files',
                 description='Put folder description here',
@@ -73,9 +73,9 @@ class SampleChef(SushiChef):
                 language=getlang('en').id,
                 thumbnail=None,
         )
-        topic1.add_child(topic11)
+        content_nodes_folder.add_child(audio_nodes_folder)
 
-        content11a = AudioNode(
+        audio_node = AudioNode(
                 source_id='940ac8ff',
                 title='Whale sounds',
                 author='First Last (author\'s name)',
@@ -85,16 +85,16 @@ class SampleChef(SushiChef):
                 thumbnail=None,
                 files=[],
         )
-        topic11.add_child(content11a)
+        audio_nodes_folder.add_child(audio_node)
         audio_file = AudioFile(
                 path='./content/ricecooker-channel-files/Whale_sounds.mp3',
                 language=getlang('en').id
         )
-        content11a.add_file(audio_file)
+        audio_node.add_file(audio_file)
 
 
         # DOCUMENTS
-        topic12 = TopicNode(
+        documents_folder = TopicNode(
             source_id='asanlksnaklsn',
             title='Document Nodes',
             description='Put folder description here',
@@ -102,9 +102,9 @@ class SampleChef(SushiChef):
             language=getlang('en').id,
             thumbnail=None,
         )
-        topic1.add_child(topic12)
+        content_nodes_folder.add_child(documents_folder)
 
-        content12a = DocumentNode(
+        document_node = DocumentNode(
               source_id='80b7136f',
               title='The Supreme Court\u2019s Ruling in Brown vs. Board of Education',
               author='First Last (author\'s name)',
@@ -117,11 +117,11 @@ class SampleChef(SushiChef):
                             language=getlang('en').id
                     )]
         )
-        topic12.add_child(content12a)
+        documents_folder.add_child(document_node)
 
 
         # HTML5 APPS
-        topic13 = TopicNode(
+        html5apps_folder = TopicNode(
                 source_id='asasa331',
                 title='HTML5App Nodes',
                 description='Put folder description here',
@@ -129,9 +129,9 @@ class SampleChef(SushiChef):
                 language=getlang('en').id,
                 thumbnail=None,
         )
-        topic1.add_child(topic13)
+        content_nodes_folder.add_child(html5apps_folder)
 
-        content13a = HTML5AppNode(
+        html5_node_a = HTML5AppNode(
               source_id='302723b4',
               title='Sample React app',
               author='First Last (author\'s name)',
@@ -144,9 +144,9 @@ class SampleChef(SushiChef):
                           language=getlang('en').id
                      )]
         )
-        topic13.add_child(content13a)
+        html5apps_folder.add_child(html5_node_a)
 
-        content13b = HTML5AppNode(
+        html5_node_b = HTML5AppNode(
               source_id='3f91184e',
               title='Sample Vue.js app',
               author='First Last (author\'s name)',
@@ -159,9 +159,9 @@ class SampleChef(SushiChef):
                           language=getlang('en').id
                      )]
         )
-        topic13.add_child(content13b)
+        html5apps_folder.add_child(html5_node_b)
 
-        content13c = HTML5AppNode(
+        html5_node_c = HTML5AppNode(
               source_id='0aec4296',
               title='Sample wget-scraped web content',
               author='First Last (author\'s name)',
@@ -174,11 +174,11 @@ class SampleChef(SushiChef):
                           language=getlang('en').id
                      )]
         )
-        topic13.add_child(content13c)
+        html5apps_folder.add_child(html5_node_c)
 
 
         # VIDEOS
-        topic14 = TopicNode(
+        videos_folder = TopicNode(
                 source_id='121213m3m3',
                 title='Video Nodes',
                 description='Put folder description here',
@@ -186,8 +186,8 @@ class SampleChef(SushiChef):
                 language=getlang('en').id,
                 thumbnail=None,
         )
-        topic1.add_child(topic14)
-        content14a = VideoNode(
+        content_nodes_folder.add_child(videos_folder)
+        video_node = VideoNode(
                 source_id='9e355995',
                 title='Wave particle duality explained in 2 mins',
                 author='First Last (author\'s name)',
@@ -201,7 +201,7 @@ class SampleChef(SushiChef):
                             language=getlang('en').id
                        )]
         )
-        topic14.add_child(content14a)
+        videos_folder.add_child(video_node)
 
 
 
@@ -212,7 +212,7 @@ class SampleChef(SushiChef):
         """
 
         # EXERCISES
-        topic2 = TopicNode(
+        exercices_folder = TopicNode(
                 source_id='mdmdmai3i13',
                 title='Exercise Nodes',
                 description='Put folder description here',
@@ -220,7 +220,7 @@ class SampleChef(SushiChef):
                 language=getlang('en').id,
                 thumbnail=None,
         )
-        channel.add_child(topic2)
+        channel.add_child(exercices_folder)
 
         exercise2a = ExerciseNode(
                 source_id='asisis9',
@@ -259,7 +259,7 @@ class SampleChef(SushiChef):
                     )
                 ]
         )
-        topic2.add_child(exercise2a)
+        exercices_folder.add_child(exercise2a)
 
         # LOAD JSON DATA (as string) FOR PERSEUS QUESTIONS
         SAMPLE_PERSEUS_4_JSON = open('./content/ricecooker-channel-files/sample_perseus04.json','r').read()
@@ -285,7 +285,7 @@ class SampleChef(SushiChef):
                     ),
                 ]
         )
-        topic2.add_child(exercise2b)
+        exercices_folder.add_child(exercise2b)
 
 
 
