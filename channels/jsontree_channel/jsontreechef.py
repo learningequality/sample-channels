@@ -16,7 +16,7 @@ logging.getLogger("requests.packages").setLevel(logging.WARNING)
 LOGGER.setLevel(logging.DEBUG)
 
 
-# CSV SAMPLE CHANNEL LINE COOK
+# RICECOOKER JSON TREE SAMPLE CHEF
 ################################################################################
 
 class SampleJsonTreeChef(JsonTreeChef):
