@@ -1,10 +1,10 @@
 {
   "title": "Sample JSON channel",
-  "description": "This channel was created from the files in the content/ directory and the metadata provided in ricecooker_json_tree.json",
   "source_domain": "source.org",
   "source_id": "sample-json-channel",
-  "language": "en",
+  "description": "This channel was created from the files in the content/ directory and the metadata in sample_ricecooker_json_tree.json",
   "thumbnail": "./content/sample-json-channel-files/channel_thumbnail.jpg",
+  "language": "en",
   "children": [
     {
       "kind": "topic",
@@ -13,7 +13,6 @@
       "description": "Put folder description here",
       "author": null,
       "language": "en",
-      "license": null,
       "thumbnail": null,
       "children": [
         {
@@ -23,7 +22,6 @@
           "description": "Put folder description here",
           "author": null,
           "language": "en",
-          "license": null,
           "thumbnail": null,
           "children": [
             {
@@ -35,8 +33,8 @@
               "language": "en",
               "license": {
                 "license_id": "CC BY",
-                "description": null,
-                "copyright_holder": "Copyright holder name"
+                "copyright_holder": "Copyright holder name",
+                "description": null
               },
               "thumbnail": null,
               "files": [
@@ -56,7 +54,6 @@
           "description": "Put folder description here",
           "author": null,
           "language": "en",
-          "license": null,
           "thumbnail": null,
           "children": [
             {
@@ -68,8 +65,8 @@
               "language": "en",
               "license": {
                 "license_id": "CC BY",
-                "description": null,
-                "copyright_holder": "Copyright holder name"
+                "copyright_holder": "Copyright holder name",
+                "description": null
               },
               "thumbnail": null,
               "files": [
@@ -89,7 +86,6 @@
           "description": "Put folder description here",
           "author": null,
           "language": "en",
-          "license": null,
           "thumbnail": null,
           "children": [
             {
@@ -101,8 +97,8 @@
               "language": "en",
               "license": {
                 "license_id": "CC BY",
-                "description": null,
-                "copyright_holder": "Copyright holder name"
+                "copyright_holder": "Copyright holder name",
+                "description": null
               },
               "thumbnail": "./content/sample-json-channel-files/html5_react.jpg",
               "files": [
@@ -122,8 +118,8 @@
               "language": "en",
               "license": {
                 "license_id": "CC BY",
-                "description": null,
-                "copyright_holder": "Copyright holder name"
+                "copyright_holder": "Copyright holder name",
+                "description": null
               },
               "thumbnail": "./content/sample-json-channel-files/html5_vuejs.jpg",
               "files": [
@@ -143,8 +139,8 @@
               "language": "en",
               "license": {
                 "license_id": "CC BY",
-                "description": null,
-                "copyright_holder": "Copyright holder name"
+                "copyright_holder": "Copyright holder name",
+                "description": null
               },
               "thumbnail": "./content/sample-json-channel-files/html5_wget_scraped.jpg",
               "files": [
@@ -164,7 +160,6 @@
           "description": "Put folder description here",
           "author": null,
           "language": "en",
-          "license": null,
           "thumbnail": null,
           "children": [
             {
@@ -176,8 +171,8 @@
               "language": "en",
               "license": {
                 "license_id": "CC BY",
-                "description": null,
-                "copyright_holder": "Copyright holder name"
+                "copyright_holder": "Copyright holder name",
+                "description": null
               },
               "derive_thumbnail": true,
               "thumbnail": null,
@@ -187,6 +182,78 @@
                   "path": "./content/sample-json-channel-files/Wave_particle_duality.mp4",
                   "language": "en"
                 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "source_id": "mdmdmai3i13",
+      "title": "Exercise Nodes",
+      "description": "Put folder description here",
+      "author": null,
+      "language": "en",
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "exercise",
+          "source_id": "asisis9",
+          "title": "Basic questions",
+          "author": "LE content team",
+          "description": "Showcase of the simple exercises supported by Ricecooker and Studio",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY",
+            "copyright_holder": "Copyright holder name",
+            "description": null
+          },
+          "thumbnail": null,
+          "exercise_data": {
+            "mastery_model": "m_of_n",
+            "randomize": true,
+            "m": 2,
+            "n": 3
+          },
+          "questions": [
+            {
+              "question_type": "multiple_selection",
+              "id": "ex2aQ1",
+              "question": "Which numbers are even?",
+              "correct_answers": [
+                "2",
+                "4"
+              ],
+              "all_answers": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ]
+            },
+            {
+              "question_type": "single_selection",
+              "id": "ex2aQ2",
+              "question": "What is 2 times 3?",
+              "correct_answer": "6",
+              "all_answers": [
+                "2",
+                "3",
+                "5",
+                "6"
+              ]
+            },
+            {
+              "question_type": "input_question",
+              "id": "ex2aQ3",
+              "question": "Name a factor of 10.",
+              "answers": [
+                "1",
+                "2",
+                "5",
+                "10"
               ]
             }
           ]
