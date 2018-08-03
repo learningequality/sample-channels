@@ -287,6 +287,30 @@ class SampleChef(SushiChef):
         )
         exercices_folder.add_child(exercise2b)
 
+        SAMPLE_PERSEUS_4_dhanam4_JSON = open('./content/ricecooker-channel-files/sample_perseus04dhanam4.json','r').read()
+        exercise2b_dhanam4 = ExerciseNode(
+                source_id='test_dhanam4',
+                title='Perseus question by dhanam4',
+                author='dhanam4',
+                description='dhanam4\'s example exercise with Persus questions',
+                language=getlang('en').id,
+                license=get_license(licenses.CC_BY, copyright_holder='dhanam4'),
+                thumbnail=None,
+                exercise_data={
+                    'mastery_model': exercises.M_OF_N,         # or exercises.DO_ALL
+                    'randomize': True,
+                    'm': 2,
+                    'n': 3,
+                },
+                questions=[
+                    PerseusQuestion(
+                            id='test_ex2bQ4dhanam4',
+                            raw_data=SAMPLE_PERSEUS_4_dhanam4_JSON,
+                            source_url='doesnt matter what goes here.. used for information purposes only'
+                    ),
+                ]
+        )
+        exercices_folder.add_child(exercise2b_dhanam4)
 
 
 if __name__ == '__main__':
