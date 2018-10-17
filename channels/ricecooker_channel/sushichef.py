@@ -67,7 +67,7 @@ class SampleChef(SushiChef):
         # AUDIO
         audio_nodes_folder = TopicNode(
             source_id='138iuh23iu',
-            title='Audio Files',
+            title='Audio Files Folder',
             description='Put folder description here',
             author=None,
             language=getlang('en').id,
@@ -239,7 +239,7 @@ class SampleChef(SushiChef):
             questions=[
                 MultipleSelectQuestion(
                         id='ex2aQ1',
-                        question = "Which numbers are even?",
+                        question = "Which numbers are even?\n\nTest local image include: ![](content/ricecooker-channel-files/html5_vuejs.jpg)",
                         correct_answers = ["2", "4",],
                         all_answers = ["1", "2", "3", "4", "5"],
                         # hints?
