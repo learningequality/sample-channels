@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>html5_vuejs</title>
+  </head>
+  <body>
+    <h1>Kolibri HTML5App testing ground</h1>
+    <h3>Any issues will show up below in all caps:</h3>
+
+
+        <hr/>
+
+        <div id="scripts"><b>INLINE SCRIPTS FAILED TO EXECUTE</b></div>
+        
+        <hr/>
+
+        <div id="styles"></div>
+        <div id="nostyles"><b>INLINE STYLES DO NOT WORK!</b></div>
+        
+        <hr/>
+
+        <div id="reading"><b>READING STATIC RESOURCE FAILED!</b></div>
+
+        <hr/>
+
+        <div id="goodimage"></div>
+        <img height="20px" id="localimage" src="local.jpg" />
+        
+        <hr/>
+
+        <div id="badimage"></div>
+        <img height="1px" id="remoteimage" src="https://images.google.com/favicon.ico" />
+        
+        <hr/>
+
+        <div id="datauriimage"></div>
+        <img height="20px" id="dataimage" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAABJklEQVR4Ae3VPYrbUBRA4a+RJ1VSJswvGG8mhYsswRhtxT/YmNEuhtEiAmpcJjBJOQsYyyBMsF0qXcjDjNF7pAnJOd0tTqN3r/yLfPCsFfrsvUje+ao91RdvRfBGpX3Fzy6c4UKh0Ua6U+gJKLSJFgKa5FAjoE23W6hRWpp4UKeHNnIZgMzIS0rom1shXHqKDW3cgoHC2tq9PriyiQvl4JPjr8nBEIxjQo0MA8dguneHTN09VL7ySBfgsXtoCdYnoQpMu4cmZ0Oz7qEHcH8SmoOye6iWoe8QTH+4QWYb8/lHYGj/W+YjyOPe0YtLcGehUpm7Adfq2BV5coWQa9/TlnYcLG2uTj8jtUdTM6VtxBlJNGCXnGn+1PFfCegl/Y4aKz1/Lf/5CShXgVKz4A8DAAAAAElFTkSuQmCC" />
+        
+        <hr/>
+
+        <div id="formresults"></div>
+        <form id="badform" action="https://test.com">
+        </form>
+
+        <hr/>
+
+        <p>If the following iframe is empty, then nested IFrames are broken:</p>
+        <iframe id="embedding"></iframe>
+
+        <hr/>
+
+        <div id="NOcookies"></div>
+
+        <hr/>
+
+        <div id="NOlocalStorage"></div>
+
+        <hr/>
+
+        <div id="postMessage_sent">PROBLEM using postMessage in iframe</div>
+        <div id="postMessage_received"></div>
+
+        <hr/>
+
+
+
+
+        <script>
+            document.getElementById("scripts").innerText = "Inline scripts executed successfully";
+        </script>
+
+        <script>
+            var req = new XMLHttpRequest();
+            req.onreadystatechange = function(){
+                if(this.readyState == 4 && this.responseText == "Success\n") {
+                    document.getElementById("reading").innerText = "Successfully read from static resource";
+                }
+            }
+            req.open('GET', 'data.txt', true);
+            req.send();
+        </script>
+
+        <script>
+            document.getElementById("localimage").onload = function() {
+                document.getElementById("goodimage").innerText = "Local image loaded successfully";
+            }
+            document.getElementById("localimage").onerror = function() {
+                document.getElementById("goodimage").innerHTML = "<b>LOCAL IMAGE FAILED TO LOAD</b>";
+            }
+            document.getElementById("remoteimage").onload = function() {
+                document.getElementById("badimage").innerHTML = "<b>REMOTE IMAGE LOADED (SHOULD NOT HAVE!)</b>";
+            }
+            document.getElementById("remoteimage").onerror = function() {
+                document.getElementById("badimage").innerText = "Remote image failed to load (as intended)";
+            }
+            document.getElementById("dataimage").onload = function() {
+                document.getElementById("datauriimage").innerText = "Data URI image loaded successfully";
+            }
+            document.getElementById("dataimage").onerror = function() {
+                document.getElementById("datauriimage").innerHTML = "<b>DATA URI IMAGE DID NOT LOAD!</b>";
+            }
+        </script>
+
+        <script>
+            document.getElementById("formresults").innerText = "If you're still seeing this page, the form failed to submit (as intended)";
+            document.getElementById("badform").submit();
+        </script>
+
+        <script>
+            document.getElementById("embedding").src = "embedded.html";
+        </script>
+
+
+
+
+        <script>
+            ////////////////////////////////////////////////////////////////////
+            // cookies don't work
+            try{
+
+                function setCookie(name,value,days) {
+                    var expires = "";
+                    if (days) {
+                        var date = new Date();
+                        date.setTime(date.getTime() + (days*24*60*60*1000));
+                        expires = "; expires=" + date.toUTCString();
+                    }
+                    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+                }
+                setCookie('insideiframe', 'testcookie', 7);
+
+
+            } catch (exception) {
+              
+                console.log(exception);
+                document.getElementById("NOcookies").innerText = "Trying to set a cookie raises an exception (expected due to sandbox)";
+
+            }
+        </script>
+
+
+        <script>
+            ////////////////////////////////////////////////////////////////////
+            // localStorage desn't work
+            try{
+
+              window.localStorage.setItem('somekey', 'somevalue');
+
+            } catch (exception) {
+              
+                console.log(exception);
+                document.getElementById("NOlocalStorage").innerText = "Trying to use localStorage raises an exception (expected due to sandbox)";
+
+            }
+        </script>
+
+
+        
+        <script>
+            ////////////////////////////////////////////////////////////////////
+            // postMessage works
+
+            window.addEventListener("message", receiveMessage, false);
+            function receiveMessage(event) {
+                // listener for response from Kolibri
+                console.log('Iframe received message:')
+                console.log(event);
+                document.getElementById("postMessage_received").innerText = "Received response: <" + event.data + "> from Kolibri." ;
+            }
+
+            // try sending a message to Kolibri
+            var localhostport = location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+            window.parent.postMessage("Hello!", localhostport);
+            document.getElementById("postMessage_sent").innerText = "Successfully used postMessage." ;
+
+        </script>
+
+
+
+        <style>
+            #styles:after {
+                content: "Inline styles are working!"; 
+            }
+            #nostyles {
+                display: none;
+            }
+        </style>
+
+  </body>
+</html>

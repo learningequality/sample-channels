@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+  <title>Kolibri iframe test page</title>  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <h1>Kolibri loads the HTML5App's <code>webroot/index.html</code> in the iframe below \/ \/ \/</h1>
+    <div id="main">
+          <iframe sandbox="allow-scripts" src="webroot/index.html" class="iframe" frameborder="0"></iframe>
+    </div>
+    
+    
+    
+    <div id='Kolibri_postMessage_rcv'>NO MESSAGES FROM iframe RECEIVED.</div>
+    <script>
+        window.addEventListener("message", receiveMessage, false);
+        function receiveMessage(event) {
+            console.log('Kolibri container received message:')
+            console.log(event);
+            document.getElementById("Kolibri_postMessage_rcv").innerText = "Kolibri received message: <" + event.data + "> from the iframe.";
+            
+            var iframe = document.getElementsByTagName("iframe")[0];
+            iframe.contentWindow.postMessage('Hi there!', '*'); // need * here,
+            // otherwise:
+            //   Failed to execute 'postMessage' on 'DOMWindow':
+            //   The target origin provided ('http://127.0.0.1:8282')
+            //   does not match the recipient window's origin ('null').
+        }
+
+    </script>
+
+
+    <style>
+      #main  {
+        border: 1px solid purple;
+        height: 90%;
+      }
+      iframe {
+        width: 100%;
+        height: 90%;
+      }
+    </style>
+
+
+</body>
+</html>
