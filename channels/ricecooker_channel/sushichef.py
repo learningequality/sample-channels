@@ -176,6 +176,21 @@ class SampleChef(SushiChef):
         )
         html5apps_folder.add_child(html5_node_c)
 
+        html5_node_d = HTML5AppNode(
+            source_id='somenewuniqid',
+            title='HTMLWeb capabilities test',
+            author='First Last (author\'s name)',
+            description='Tests different HTML/JS capabilities. What capabilities are allowed and disallowed by the sandboxed iframe used to render HTML5App nodes on Kolibri.',
+            language=getlang('en').id,
+            license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
+            thumbnail='./content/ricecooker-channel-files/html5_tests.jpg',
+            files=[HTMLZipFile(
+                      path='./content/ricecooker-channel-files/html5_tests.zip',
+                      language=getlang('en').id
+                 )]
+        )
+        html5apps_folder.add_child(html5_node_d)
+
 
         # VIDEOS
         videos_folder = TopicNode(
