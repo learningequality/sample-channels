@@ -1,0 +1,1730 @@
+{
+  "dirname": "channelrootfolder",
+  "title": "CSV Demo Channel",
+  "description": "This channel was created from a hierarchy of folders and files in the local filesystem + metadata specified in .CSV files that were created using spreadshseet software.",
+  "source_domain": "learningequality.org",
+  "source_id": "Csv-demo-channel",
+  "language": "en",
+  "thumbnail": "channelrootfolder/channel_thumbnail.png",
+  "children": [
+    {
+      "kind": "topic",
+      "dirname": "Content Pipeline",
+      "source_id": "sourceid:channelrootfolder/Content Pipeline",
+      "title": "Content Pipeline",
+      "description": "No descr",
+      "author": null,
+      "language": "en",
+      "license": {
+        "license_id": "CC BY-NC",
+        "description": null,
+        "copyright_holder": "Learning Equality"
+      },
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "video",
+          "source_id": "Content Pipeline Workflow Demo.mp4",
+          "title": "Content Pipeline Workflow Demo",
+          "author": "LE content circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Content Pipeline/Content Pipeline Workflow Demo.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "video",
+          "source_id": "Sushibar login demo.mp4",
+          "title": "Sushibar login demo",
+          "author": "LE content circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Content Pipeline/Sushibar login demo.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "video",
+          "source_id": "Video Compression Howto using ffmpeg on windows.mp4",
+          "title": "Video Compression Howto using ffmpeg on windows",
+          "author": "LE content circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Content Pipeline/Video Compression Howto using ffmpeg on windows.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "dirname": "CSV Workflow",
+          "source_id": "sourceid:channelrootfolder/Content Pipeline/CSV Workflow",
+          "title": "CSV Workflow",
+          "description": "No descr",
+          "author": null,
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": null
+          },
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "video",
+              "source_id": "CSV Workflow Demo part1.mp4",
+              "title": "CSV Workflow Demo part1",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/CSV Workflow/CSV Workflow Demo part1.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "CSV Workflow Demo part2.mp4",
+              "title": "CSV Workflow Demo part2",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/CSV Workflow/CSV Workflow Demo part2.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "CSV Workflow Demo part3.mp4",
+              "title": "CSV Workflow Demo part3",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/CSV Workflow/CSV Workflow Demo part3.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "CSV Workflow Demo part4.mp4",
+              "title": "CSV Workflow Demo part4",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/CSV Workflow/CSV Workflow Demo part4.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "CSV Workflow Demo part5.mp4",
+              "title": "CSV Workflow Demo part5",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/CSV Workflow/CSV Workflow Demo part5.mp4",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "dirname": "Cheffing",
+          "source_id": "sourceid:channelrootfolder/Content Pipeline/Cheffing",
+          "title": "Cheffing",
+          "description": "No descr",
+          "author": null,
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "video",
+              "source_id": "Chef code walkthrough MIT Blossoms.mp4",
+              "title": "Chef code walkthrough MIT Blossoms",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/Cheffing/Chef code walkthrough MIT Blossoms.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "Cheffing Example Tutorial SHLS_part1.mp4",
+              "title": "Cheffing Example Tutorial SHLS part1",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/Cheffing/Cheffing Example Tutorial SHLS_part1.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "Cheffing Example Tutorial SHLS_part2.mp4",
+              "title": "Cheffing Example Tutorial SHLS part2",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/Cheffing/Cheffing Example Tutorial SHLS_part2.mp4",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "dirname": "Research",
+          "source_id": "sourceid:channelrootfolder/Content Pipeline/Research",
+          "title": "Research",
+          "description": "No descr",
+          "author": null,
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "video",
+              "source_id": "H5P research session.mp4",
+              "title": "H5P research session",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/Research/H5P research session.mp4",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "dirname": "SushOps",
+          "source_id": "sourceid:channelrootfolder/Content Pipeline/SushOps",
+          "title": "SushOps",
+          "description": "No descr",
+          "author": null,
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "video",
+              "source_id": "Creating demo servers using cloud-kolibri-demo fabfile.mp4",
+              "title": "Creating demo servers using cloud-kolibri-demo fabfile",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/SushOps/Creating demo servers using cloud-kolibri-demo fabfile.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "Deploy docker-unoconv webservice.mp4",
+              "title": "Deploy docker-unoconv webservice",
+              "author": "LE sysops circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/SushOps/Deploy docker-unoconv webservice.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "Sushibar devops using docker-machine and docker-compose.mp4",
+              "title": "Sushibar devops using docker-machine and docker-compose",
+              "author": "LE sysops circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/SushOps/Sushibar devops using docker-machine and docker-compose.mp4",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "dirname": "Dev",
+      "source_id": "sourceid:channelrootfolder/Dev",
+      "title": "Dev",
+      "description": "No descr",
+      "author": null,
+      "language": "en",
+      "license": {
+        "license_id": "CC BY-NC",
+        "description": null,
+        "copyright_holder": "Learning Equality"
+      },
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "video",
+          "source_id": "Hack Session on Vue.js 2017-10-05.mp4",
+          "title": "Hack Session on Vue.js 2017-10-05",
+          "author": "LE dev circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Dev/Hack Session on Vue.js 2017-10-05.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "video",
+          "source_id": "Kolibri dockerfiles walkthrough.mp4",
+          "title": "Kolibri dockerfiles walkthrough",
+          "author": "LE sysops circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Dev/Kolibri dockerfiles walkthrough.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "dirname": "Git",
+          "source_id": "sourceid:channelrootfolder/Dev/Git",
+          "title": "Git",
+          "description": "No descr",
+          "author": null,
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "video",
+              "source_id": "Rebase example 1.mp4",
+              "title": "Rebase example 1",
+              "author": "LE dev circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Dev/Git/Rebase example 1.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "Rebase exapmle 2.mp4",
+              "title": "Rebase exapmle 2",
+              "author": "LE dev circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Dev/Git/Rebase exapmle 2.mp4",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "dirname": "Docs",
+      "source_id": "sourceid:channelrootfolder/Docs",
+      "title": "Docs",
+      "description": "No descr",
+      "author": null,
+      "language": "en",
+      "license": {
+        "license_id": "CC BY-NC",
+        "description": null,
+        "copyright_holder": "Learning Equality"
+      },
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "html5",
+          "source_id": "kolibri-dev-webroot.zip",
+          "title": "kolibri-dev-webroot",
+          "author": "LE docs circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "html5",
+              "path": "channelrootfolder/Docs/kolibri-dev-webroot.zip",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "html5",
+          "source_id": "kolibri-studio-webroot.zip",
+          "title": "kolibri-studio-webroot",
+          "author": "LE docs circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "html5",
+              "path": "channelrootfolder/Docs/kolibri-studio-webroot.zip",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "document",
+          "source_id": "kolibri-studio.epub",
+          "title": "kolibri-studio",
+          "author": "LE docs circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "epub",
+              "path": "channelrootfolder/Docs/kolibri-studio.epub",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "document",
+          "source_id": "kolibri-studio.pdf",
+          "title": "kolibri-studio",
+          "author": "LE docs circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "document",
+              "path": "channelrootfolder/Docs/kolibri-studio.pdf",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "html5",
+          "source_id": "kolibri-webroot.zip",
+          "title": "kolibri-webroot",
+          "author": "LE docs circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "html5",
+              "path": "channelrootfolder/Docs/kolibri-webroot.zip",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "document",
+          "source_id": "kolibri.epub",
+          "title": "kolibri",
+          "author": "LE docs circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "epub",
+              "path": "channelrootfolder/Docs/kolibri.epub",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "document",
+          "source_id": "kolibri.pdf",
+          "title": "kolibri",
+          "author": "LE docs circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "document",
+              "path": "channelrootfolder/Docs/kolibri.pdf",
+              "language": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "dirname": "Kolibri",
+      "source_id": "sourceid:channelrootfolder/Kolibri",
+      "title": "Kolibri",
+      "description": "No descr",
+      "author": "LE docs circle",
+      "language": "en",
+      "license": {
+        "license_id": "CC BY-NC",
+        "description": null,
+        "copyright_holder": "Learning Equality"
+      },
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "video",
+          "source_id": "Coach video take 1.mp4",
+          "title": "Coach video take 1",
+          "author": "LE implementations circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Kolibri/Coach video take 1.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "video",
+          "source_id": "Updating Kolibri Channels.mp4",
+          "title": "Updating Kolibri Channels",
+          "author": "Laura",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Kolibri/Updating Kolibri Channels.mp4",
+              "language": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "dirname": "Presentations",
+      "source_id": "sourceid:channelrootfolder/Presentations",
+      "title": "Presentations",
+      "description": "No descr",
+      "author": "LE content circle",
+      "language": "en",
+      "license": {
+        "license_id": "CC BY-NC",
+        "description": null,
+        "copyright_holder": "Learning Equality"
+      },
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "video",
+          "source_id": "Fast Forward Pitch.mp4",
+          "title": "Fast Forward Pitch",
+          "author": "Jamie",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Presentations/Fast Forward Pitch.mp4",
+              "language": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "topic",
+      "dirname": "Toolkit",
+      "source_id": "sourceid:channelrootfolder/Toolkit",
+      "title": "Toolkit",
+      "description": "No descr",
+      "author": null,
+      "language": "en",
+      "license": {
+        "license_id": "CC BY-NC",
+        "description": null,
+        "copyright_holder": "Learning Equality"
+      },
+      "thumbnail": null,
+      "children": [
+        {
+          "kind": "document",
+          "source_id": "Kolibri Edtech Toolkit v2 README.pdf",
+          "title": "Kolibri Edtech Toolkit v2 README",
+          "author": "LE implementations circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "document",
+              "path": "channelrootfolder/Toolkit/Kolibri Edtech Toolkit v2 README.pdf",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "dirname": "English",
+          "source_id": "sourceid:channelrootfolder/Toolkit/English",
+          "title": "English",
+          "description": "No descr",
+          "author": null,
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "topic",
+              "dirname": "Kolibri Implementation Pack",
+              "source_id": "sourceid:channelrootfolder/Toolkit/English/Kolibri Implementation Pack",
+              "title": "Kolibri Implementation Pack",
+              "description": "No descr",
+              "author": null,
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "Hardware List - updated Oct 2017.pdf",
+                  "title": "Hardware List - updated Oct 2017",
+                  "author": "LE implementations circle",
+                  "description": "No descr",
+                  "language": "en",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "channelrootfolder/Toolkit/English/Kolibri Implementation Pack/Hardware List - updated Oct 2017.pdf",
+                      "language": "en"
+                    }
+                  ]
+                },
+                {
+                  "kind": "document",
+                  "source_id": "Hardware guide - updated Nov 2017.pdf",
+                  "title": "Hardware guide - updated Nov 2017",
+                  "author": "LE implementations circle",
+                  "description": "No descr",
+                  "language": "en",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "channelrootfolder/Toolkit/English/Kolibri Implementation Pack/Hardware guide - updated Nov 2017.pdf",
+                      "language": "en"
+                    }
+                  ]
+                },
+                {
+                  "kind": "document",
+                  "source_id": "Pedagogy guide - updated Nov 2017.pdf",
+                  "title": "Pedagogy guide - updated Nov 2017",
+                  "author": "LE implementations circle",
+                  "description": "No descr",
+                  "language": "en",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "channelrootfolder/Toolkit/English/Kolibri Implementation Pack/Pedagogy guide - updated Nov 2017.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "dirname": "Kolibri Training Pack ",
+              "source_id": "sourceid:channelrootfolder/Toolkit/English/Kolibri Training Pack ",
+              "title": "Kolibri Training Pack ",
+              "description": "No descr",
+              "author": null,
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "topic",
+                  "dirname": "1. Training Manual",
+                  "source_id": "sourceid:channelrootfolder/Toolkit/English/Kolibri Training Pack /1. Training Manual",
+                  "title": "1. Training Manual",
+                  "description": "No descr",
+                  "author": null,
+                  "language": "en",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "Facilitation Manual for Kolibri training - Updated July 2018.pdf",
+                      "title": "Facilitation Manual for Kolibri training - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /1. Training Manual/Facilitation Manual for Kolibri training - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "Sample End of Training Reflections and Assessment - Updated July 2018.pdf",
+                      "title": "Sample End of Training Reflections and Assessment - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /1. Training Manual/Sample End of Training Reflections and Assessment - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "Sample Kolibri Training Plan - Updated July 2018.pdf",
+                      "title": "Sample Kolibri Training Plan - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /1. Training Manual/Sample Kolibri Training Plan - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "dirname": "2. Training Presentations",
+                  "source_id": "sourceid:channelrootfolder/Toolkit/English/Kolibri Training Pack /2. Training Presentations",
+                  "title": "2. Training Presentations",
+                  "description": "No descr",
+                  "author": null,
+                  "language": "en",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "1. Introduction - Updated July 2018.pdf",
+                      "title": "1. Introduction - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /2. Training Presentations/1. Introduction - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "2. Planning a Kolibri Class - Introducing the Library - Updated July 2018.pdf",
+                      "title": "2. Planning a Kolibri Class - Introducing the Library - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /2. Training Presentations/2. Planning a Kolibri Class - Introducing the Library - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "3. Hands-on Demo - Updated July 2018.pdf",
+                      "title": "3. Hands-on Demo - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /2. Training Presentations/3. Hands-on Demo - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "4. Planning a Kolibri Class - Using the Library - Updated July 2018.pdf",
+                      "title": "4. Planning a Kolibri Class - Using the Library - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /2. Training Presentations/4. Planning a Kolibri Class - Using the Library - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "5. Blended Learning - Updated July 2018.pdf",
+                      "title": "5. Blended Learning - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /2. Training Presentations/5. Blended Learning - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "6. Classroom Culture - Updated July 2018.pdf",
+                      "title": "6. Classroom Culture - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /2. Training Presentations/6. Classroom Culture - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "7. Classroom Management - Updated July 2018.pdf",
+                      "title": "7. Classroom Management - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /2. Training Presentations/7. Classroom Management - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "8. ISTE Standards - Updated July 2018.pdf",
+                      "title": "8. ISTE Standards - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /2. Training Presentations/8. ISTE Standards - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "9. Technology - Updated July 2018.pdf",
+                      "title": "9. Technology - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /2. Training Presentations/9. Technology - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "dirname": "3. Training Workbook",
+                  "source_id": "sourceid:channelrootfolder/Toolkit/English/Kolibri Training Pack /3. Training Workbook",
+                  "title": "3. Training Workbook",
+                  "description": "No descr",
+                  "author": null,
+                  "language": "en",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "Classroom Culture Handout - Updated July 2018.pdf",
+                      "title": "Classroom Culture Handout - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /3. Training Workbook/Classroom Culture Handout - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "ISTE Standards for Educators (Permitted Educational Use).pdf",
+                      "title": "ISTE Standards for Educators (Permitted Educational Use)",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /3. Training Workbook/ISTE Standards for Educators (Permitted Educational Use).pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "Setting Vision and Goals for Teaching with Blended Learning - Updated July 2018.pdf",
+                      "title": "Setting Vision and Goals for Teaching with Blended Learning - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /3. Training Workbook/Setting Vision and Goals for Teaching with Blended Learning - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "Training Workbook - Updated July 2018.pdf",
+                      "title": "Training Workbook - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /3. Training Workbook/Training Workbook - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "topic",
+                  "dirname": "4. Program support - peer mentoring and coaching",
+                  "source_id": "sourceid:channelrootfolder/Toolkit/English/Kolibri Training Pack /4. Program support - peer mentoring and coaching",
+                  "title": "4. Program support - peer mentoring and coaching",
+                  "description": "No descr",
+                  "author": null,
+                  "language": "en",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "children": [
+                    {
+                      "kind": "document",
+                      "source_id": "Action Steps - Grouping - Updated July 2018.pdf",
+                      "title": "Action Steps - Grouping - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /4. Program support - peer mentoring and coaching/Action Steps - Grouping - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "Action Steps - Questioning - Updated July 2018.pdf",
+                      "title": "Action Steps - Questioning - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /4. Program support - peer mentoring and coaching/Action Steps - Questioning - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "LE Teacher Development overview - Updated July 2018.pdf",
+                      "title": "LE Teacher Development overview - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /4. Program support - peer mentoring and coaching/LE Teacher Development overview - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "Mentoring - Updated July 2018.pdf",
+                      "title": "Mentoring - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /4. Program support - peer mentoring and coaching/Mentoring - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "document",
+                      "source_id": "Peer Observation Cycle - Updated July 2018.pdf",
+                      "title": "Peer Observation Cycle - Updated July 2018",
+                      "author": "LE implementations circle",
+                      "description": "No descr",
+                      "language": "en",
+                      "license": {
+                        "license_id": "CC BY-NC",
+                        "description": null,
+                        "copyright_holder": "Learning Equality"
+                      },
+                      "thumbnail": null,
+                      "files": [
+                        {
+                          "file_type": "document",
+                          "path": "channelrootfolder/Toolkit/English/Kolibri Training Pack /4. Program support - peer mentoring and coaching/Peer Observation Cycle - Updated July 2018.pdf",
+                          "language": "en"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "dirname": "Kolibri Translator Pack",
+              "source_id": "sourceid:channelrootfolder/Toolkit/English/Kolibri Translator Pack",
+              "title": "Kolibri Translator Pack",
+              "description": "No descr",
+              "author": null,
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "Kolibri Translator Guidelines - updated Nov 2017.pdf",
+                  "title": "Kolibri Translator Guidelines - updated Nov 2017",
+                  "author": "LE implementations circle",
+                  "description": "No descr",
+                  "language": "en",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "channelrootfolder/Toolkit/English/Kolibri Translator Pack/Kolibri Translator Guidelines - updated Nov 2017.pdf",
+                      "language": "en"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "topic",
+          "dirname": "Spanish",
+          "source_id": "sourceid:channelrootfolder/Toolkit/Spanish",
+          "title": "Spanish",
+          "description": "No descr",
+          "author": null,
+          "language": "es",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "document",
+              "source_id": "Kolibri Beta - Instrucciones de instalación en Windows.pdf",
+              "title": "Kolibri Beta - Instrucciones de instalación en Windows",
+              "author": "LE implementations circle",
+              "description": "No descr",
+              "language": "es",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "document",
+                  "path": "channelrootfolder/Toolkit/Spanish/Kolibri Beta - Instrucciones de instalación en Windows.pdf",
+                  "language": "es"
+                }
+              ]
+            },
+            {
+              "kind": "document",
+              "source_id": "Manual del Usuário - v.05.9 (actualizado en Septiembre 2017).pdf",
+              "title": "Manual del Usuário - v.05.9 (actualizado en Septiembre 2017)",
+              "author": "LE implementations circle",
+              "description": "No descr",
+              "language": "es",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "document",
+                  "path": "channelrootfolder/Toolkit/Spanish/Manual del Usuário - v.05.9 (actualizado en Septiembre 2017).pdf",
+                  "language": "es"
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "dirname": "Para imprimir",
+              "source_id": "sourceid:channelrootfolder/Toolkit/Spanish/Para imprimir",
+              "title": "Para imprimir",
+              "description": "No descr",
+              "author": null,
+              "language": "es",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "Copy of Hoja SPAH.pdf",
+                  "title": "Copy of Hoja SPAH",
+                  "author": "LE implementations circle",
+                  "description": "No descr",
+                  "language": "es",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "channelrootfolder/Toolkit/Spanish/Para imprimir/Copy of Hoja SPAH.pdf",
+                      "language": "es"
+                    }
+                  ]
+                },
+                {
+                  "kind": "document",
+                  "source_id": "Copy of Hoja de retroalimentación pós-entrenamiento.pdf",
+                  "title": "Copy of Hoja de retroalimentación pós-entrenamiento",
+                  "author": "LE implementations circle",
+                  "description": "No descr",
+                  "language": "es",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "channelrootfolder/Toolkit/Spanish/Para imprimir/Copy of Hoja de retroalimentación pós-entrenamiento.pdf",
+                      "language": "es"
+                    }
+                  ]
+                },
+                {
+                  "kind": "document",
+                  "source_id": "Copy of Libreta del entrenamiento.pdf",
+                  "title": "Copy of Libreta del entrenamiento",
+                  "author": "LE implementations circle",
+                  "description": "No descr",
+                  "language": "es",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "channelrootfolder/Toolkit/Spanish/Para imprimir/Copy of Libreta del entrenamiento.pdf",
+                      "language": "es"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "topic",
+              "dirname": "Presentaciones del entrenamiento",
+              "source_id": "sourceid:channelrootfolder/Toolkit/Spanish/Presentaciones del entrenamiento",
+              "title": "Presentaciones del entrenamiento",
+              "description": "No descr",
+              "author": null,
+              "language": "es",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "thumbnail": null,
+              "children": [
+                {
+                  "kind": "document",
+                  "source_id": "1. Introducción al entrenamiento de Kolibri_.pdf",
+                  "title": "1. Introducción al entrenamiento de Kolibri ",
+                  "author": "LE implementations circle",
+                  "description": "No descr",
+                  "language": "es",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "channelrootfolder/Toolkit/Spanish/Presentaciones del entrenamiento/1. Introducción al entrenamiento de Kolibri_.pdf",
+                      "language": "es"
+                    }
+                  ]
+                },
+                {
+                  "kind": "document",
+                  "source_id": "2. Presentación de Kolibri - paso a paso.pdf",
+                  "title": "2. Presentación de Kolibri - paso a paso",
+                  "author": "LE implementations circle",
+                  "description": "No descr",
+                  "language": "es",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "channelrootfolder/Toolkit/Spanish/Presentaciones del entrenamiento/2. Presentación de Kolibri - paso a paso.pdf",
+                      "language": "es"
+                    }
+                  ]
+                },
+                {
+                  "kind": "document",
+                  "source_id": "3. Presentación de Kolibri Studio_.pdf",
+                  "title": "3. Presentación de Kolibri Studio ",
+                  "author": "LE implementations circle",
+                  "description": "No descr",
+                  "language": "es",
+                  "license": {
+                    "license_id": "CC BY-NC",
+                    "description": null,
+                    "copyright_holder": "Learning Equality"
+                  },
+                  "thumbnail": null,
+                  "files": [
+                    {
+                      "file_type": "document",
+                      "path": "channelrootfolder/Toolkit/Spanish/Presentaciones del entrenamiento/3. Presentación de Kolibri Studio_.pdf",
+                      "language": "es"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
