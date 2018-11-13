@@ -46,28 +46,6 @@
         },
         {
           "kind": "video",
-          "source_id": "Sushibar login demo.mp4",
-          "title": "Sushibar login demo",
-          "author": "LE content circle",
-          "description": "No descr",
-          "language": "en",
-          "license": {
-            "license_id": "CC BY-NC",
-            "description": null,
-            "copyright_holder": "Learning Equality"
-          },
-          "derive_thumbnail": true,
-          "thumbnail": null,
-          "files": [
-            {
-              "file_type": "video",
-              "path": "channelrootfolder/Content Pipeline/Sushibar login demo.mp4",
-              "language": "en"
-            }
-          ]
-        },
-        {
-          "kind": "video",
           "source_id": "Video Compression Howto using ffmpeg on windows.mp4",
           "title": "Video Compression Howto using ffmpeg on windows",
           "author": "LE content circle",
