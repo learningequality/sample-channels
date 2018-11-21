@@ -24,6 +24,28 @@
       "children": [
         {
           "kind": "video",
+          "source_id": "Adding a source recommendation to the Notion board",
+          "title": "Adding a source recommendation to the Notion board",
+          "author": "LE content circle",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Content Pipeline/Adding_a_source_recommendation_to_notion_board.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "video",
           "source_id": "Content Pipeline Workflow Demo.mp4",
           "title": "Content Pipeline Workflow Demo",
           "author": "LE content circle",
@@ -692,7 +714,7 @@
       "source_id": "sourceid:channelrootfolder/Kolibri",
       "title": "Kolibri",
       "description": "No descr",
-      "author": "LE docs circle",
+      "author": null,
       "language": "en",
       "license": {
         "license_id": "CC BY-NC",
@@ -705,7 +727,7 @@
           "kind": "video",
           "source_id": "Coach video take 1.mp4",
           "title": "Coach video take 1",
-          "author": "LE implementations circle",
+          "author": "Laura",
           "description": "No descr",
           "language": "en",
           "license": {
@@ -727,7 +749,7 @@
           "kind": "video",
           "source_id": "Updating Kolibri Channels.mp4",
           "title": "Updating Kolibri Channels",
-          "author": "Laura",
+          "author": "Ivan",
           "description": "No descr",
           "language": "en",
           "license": {
