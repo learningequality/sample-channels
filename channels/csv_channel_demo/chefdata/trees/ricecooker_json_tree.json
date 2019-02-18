@@ -68,6 +68,28 @@
         },
         {
           "kind": "video",
+          "source_id": "Importing content from develop studio.mp4",
+          "title": "Importing content from develop studio",
+          "author": "LE content circle",
+          "description": "Video shows how to import a content channel from develop.studio.learningequality.org",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Content Pipeline/Importing content from develop studio.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "video",
           "source_id": "Video Compression Howto using ffmpeg on windows.mp4",
           "title": "Video Compression Howto using ffmpeg on windows",
           "author": "LE content circle",
@@ -84,6 +106,28 @@
             {
               "file_type": "video",
               "path": "channelrootfolder/Content Pipeline/Video Compression Howto using ffmpeg on windows.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "video",
+          "source_id": "Video Compression Howto using handbrake.mp4",
+          "title": "Video Compression Howto using handbrake",
+          "author": "LE content circle",
+          "description": "This video shows how to use the preset option in Handbrake before uploading video files to Studio",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Content Pipeline/Video Compression Howto using handbrake.mp4",
               "language": "en"
             }
           ]
@@ -292,6 +336,28 @@
                 {
                   "file_type": "video",
                   "path": "channelrootfolder/Content Pipeline/Cheffing/Cheffing Example Tutorial SHLS_part2.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "Intro to Jupyter Notebook for cheffing.mp4",
+              "title": "Intro to Jupyter Notebook for cheffing",
+              "author": "LE content circle",
+              "description": "Demo video for showing how useful Jypyter notebooks can be for interactively coding parts of the chef logic",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Content Pipeline/Cheffing/Intro to Jupyter Notebook for cheffing.mp4",
                   "language": "en"
                 }
               ]
@@ -705,6 +771,89 @@
               "language": "en"
             }
           ]
+        },
+        {
+          "kind": "topic",
+          "dirname": "Using Lulu print-on-demand service",
+          "source_id": "sourceid:channelrootfolder/Docs/Using Lulu print-on-demand service",
+          "title": "Using Lulu print-on-demand service",
+          "description": "No descr",
+          "author": null,
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "thumbnail": null,
+          "children": [
+            {
+              "kind": "video",
+              "source_id": "How to create a lulu print book -- part 1.mp4",
+              "title": "How to create a lulu print book -- part 1",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Docs/Using Lulu print-on-demand service/How to create a lulu print book -- part 1.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "How to create a lulu print book -- part 2.mp4",
+              "title": "How to create a lulu print book -- part 2",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Docs/Using Lulu print-on-demand service/How to create a lulu print book -- part 2.mp4",
+                  "language": "en"
+                }
+              ]
+            },
+            {
+              "kind": "video",
+              "source_id": "How to create a lulu print book -- part 3.mp4",
+              "title": "How to create a lulu print book -- part 3",
+              "author": "LE content circle",
+              "description": "No descr",
+              "language": "en",
+              "license": {
+                "license_id": "CC BY-NC",
+                "description": null,
+                "copyright_holder": "Learning Equality"
+              },
+              "derive_thumbnail": true,
+              "thumbnail": null,
+              "files": [
+                {
+                  "file_type": "video",
+                  "path": "channelrootfolder/Docs/Using Lulu print-on-demand service/How to create a lulu print book -- part 3.mp4",
+                  "language": "en"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -802,6 +951,50 @@
             {
               "file_type": "video",
               "path": "channelrootfolder/Presentations/Fast Forward Pitch.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "video",
+          "source_id": "Holocracy features in Notion.mp4",
+          "title": "Holocracy features in Notion",
+          "author": "Jamie",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Presentations/Holocracy features in Notion.mp4",
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "kind": "video",
+          "source_id": "Learning Equality Pitch-lc2NzCkLs2I.mp4",
+          "title": "Learning Equality Pitch",
+          "author": "Jordan",
+          "description": "No descr",
+          "language": "en",
+          "license": {
+            "license_id": "CC BY-NC",
+            "description": null,
+            "copyright_holder": "Learning Equality"
+          },
+          "derive_thumbnail": true,
+          "thumbnail": null,
+          "files": [
+            {
+              "file_type": "video",
+              "path": "channelrootfolder/Presentations/Learning Equality Pitch-lc2NzCkLs2I.mp4",
               "language": "en"
             }
           ]
