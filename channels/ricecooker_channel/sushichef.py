@@ -138,7 +138,7 @@ class SampleChef(SushiChef):
             description='Put file description here',
             language=getlang('en').id,
             license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
-            thumbnail='./content/ricecooker-channel-files/html5_react.jpg',
+            thumbnail='./content/ricecooker-channel-files/html5_react.png',
             files=[HTMLZipFile(
                       path='./content/ricecooker-channel-files/html5_react.zip',
                       language=getlang('en').id
