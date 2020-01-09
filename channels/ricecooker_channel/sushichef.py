@@ -138,7 +138,7 @@ class SampleChef(SushiChef):
             description='Put file description here',
             language=getlang('en').id,
             license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
-            thumbnail='./content/ricecooker-channel-files/html5_react.jpg',
+            thumbnail='./content/ricecooker-channel-files/html5_react.png',
             files=[HTMLZipFile(
                       path='./content/ricecooker-channel-files/html5_react.zip',
                       language=getlang('en').id
@@ -190,7 +190,6 @@ class SampleChef(SushiChef):
                  )]
         )
         html5apps_folder.add_child(html5_node_d)
-
 
         # VIDEOS
         videos_folder = TopicNode(
@@ -276,6 +275,72 @@ class SampleChef(SushiChef):
         )
         exercices_folder.add_child(exercise2a)
 
+
+
+        exercise_lit = ExerciseNode(
+            source_id='commonlit',
+            title='Preguntas de evaluación',
+            author='CommonLit team',
+            description='Pregunta de test con markup <pre>',
+            language=getlang('es').id,
+            license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
+            thumbnail=None,
+            exercise_data={
+                'mastery_model': exercises.M_OF_N,         # or exercises.DO_ALL
+                'randomize': True,
+                'm': 1,
+                'n': 1,
+            },
+            questions=[
+                SingleSelectQuestion(
+                        id='q1',
+                        question = """
+
+#### El camino no elegido
+
+```
+
+Dos caminos se bifurcaban en un bosque amarillo,                 [1]
+Y apenado por no poder tomar los dos
+Siendo un viajero solo, largo tiempo me paré
+Mirando uno de ellos tan lejos como pude,
+Hasta donde se perdía en la espesura;                            [5]
+
+Entonces tomé el otro sin comparar —
+Quizás era la merecida elección
+Pues era tupido y deseaba una historia;
+Aunque en realidad ninguno
+Tenía mucho que contar.                                          [10]
+
+Y ambos esa mañana yacían cubiertos,
+Del mismo modo, por una manta intacta de hojas,
+¡Oh, guardé aquel primero para otro día!
+Aun sabiendo el modo en que las cosas siguen adelante,
+Dudé que regresaría.                                             [15]
+
+Estaré diciendo esto con un suspiro
+En un futuro lejano:
+Dos caminos se bifurcaban en un bosque y yo —
+Yo tomé el menos transitado,
+Y eso hizo toda la diferencia.                                   [20]
+```
+
+**¿Por qué dice el narrador en la línea 7 que “Quizás era la merecida elección”?**
+""",
+                        correct_answer = "Teme haber elegido el camino equivocado.",
+                        all_answers = [
+                            "Quiere sentir que ha elegido acertadamente.",
+                            "Teme haber elegido el camino equivocado.",
+                            "Está seguro de que le va a cambiar la vida.",
+                            "Piensa que será el paseo más pintoresco.",
+                        ],
+                ),
+            ]
+        )
+        exercices_folder.add_child(exercise_lit)
+
+
+
         # LOAD JSON DATA (as string) FOR PERSEUS QUESTIONS
         SAMPLE_PERSEUS_4_JSON = open('./content/ricecooker-channel-files/sample_perseus04.json','r').read()
         exercise2b = ExerciseNode(
@@ -302,30 +367,6 @@ class SampleChef(SushiChef):
         )
         exercices_folder.add_child(exercise2b)
 
-        SAMPLE_PERSEUS_4_dhanam4_JSON = open('./content/ricecooker-channel-files/sample_perseus04dhanam4.json','r').read()
-        exercise2b_dhanam4 = ExerciseNode(
-                source_id='test_dhanam4',
-                title='Perseus question by dhanam4',
-                author='dhanam4',
-                description='dhanam4\'s example exercise with Persus questions',
-                language=getlang('en').id,
-                license=get_license(licenses.CC_BY, copyright_holder='dhanam4'),
-                thumbnail=None,
-                exercise_data={
-                    'mastery_model': exercises.M_OF_N,         # or exercises.DO_ALL
-                    'randomize': True,
-                    'm': 2,
-                    'n': 3,
-                },
-                questions=[
-                    PerseusQuestion(
-                            id='test_ex2bQ4dhanam4',
-                            raw_data=SAMPLE_PERSEUS_4_dhanam4_JSON,
-                            source_url='doesnt matter what goes here.. used for information purposes only'
-                    ),
-                ]
-        )
-        exercices_folder.add_child(exercise2b_dhanam4)
 
 
 if __name__ == '__main__':

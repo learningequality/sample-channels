@@ -122,9 +122,3 @@ this file to debug all kinds of problems: missing descriptions, bad formats, etc
 
 
 
-
-
-Links
------
-See also `souschef` workflow which is the same format of CSV, but CSVs are generated
-programatically using Python (or could use `ruby` or `js`).

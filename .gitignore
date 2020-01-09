@@ -1,28 +1,41 @@
 
+credentials
+
 contentnodes/html5_react/webroot
 contentnodes/html5_wget_scraped/webroot
 contentnodes/html5_vuejs/webroot
 
+# test of CommonLit scrape via wget --- desn't work
+contentnodes/html5_wget_scraped2
 
 
 
 channels/ricecooker_channel/data
 channels/ricecooker_channel/content
+
 channels/csv_channel/content/sample-csv-channel-root
 channels/csv_channel/chefdata/trees/ricecooker_json_tree.json
 channels/csv_exercises/chefdata/trees/ricecooker_json_tree.json
+
 channels/souschef_channel/content
 channels/souschef_channel/chefdata
+
 channels/jsontree_channel/content/sample-json-channel-files
 
+channels/csv_channel_demo/channelrootfolder
 
-credentials
+
+
+
+# WIP
+contentnodes/html5_withlibs
+channels/tutorial
+channels/studioimported_csv_channel
 
 
 #JS stuff
 package-lock.json
 node_modules
-
 
 contentnodes/*/yarn.lock
 
