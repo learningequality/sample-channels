@@ -5,6 +5,10 @@ contentnodes/html5_react/webroot
 contentnodes/html5_wget_scraped/webroot
 contentnodes/html5_vuejs/webroot
 
+# test of CommonLit scrape via wget --- desn't work
+contentnodes/html5_wget_scraped2
+
+
 
 channels/ricecooker_channel/data
 channels/ricecooker_channel/content
