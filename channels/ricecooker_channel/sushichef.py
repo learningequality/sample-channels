@@ -2,11 +2,13 @@
 
 from le_utils.constants import licenses, exercises
 from le_utils.constants.languages import getlang  # see also getlang_by_name, getlang_by_alpha2
+from pressurecooker.youtube import YouTubeResource, is_youtube_subtitle_file_supported_language
+
 from ricecooker.chefs import SushiChef
 from ricecooker.classes.nodes import TopicNode
 
 from ricecooker.classes.nodes import DocumentNode, AudioNode, VideoNode, HTML5AppNode
-from ricecooker.classes.files import DocumentFile, AudioFile, VideoFile, HTMLZipFile
+from ricecooker.classes.files import DocumentFile, AudioFile, VideoFile, YouTubeVideoFile, YouTubeSubtitleFile, HTMLZipFile
 
 from ricecooker.classes.nodes import ExerciseNode
 from ricecooker.classes.questions import SingleSelectQuestion, MultipleSelectQuestion, InputQuestion, PerseusQuestion
@@ -32,8 +34,8 @@ class SampleChef(SushiChef):
         'CHANNEL_TITLE': 'Sample Ricecooker Channel',           # a humand-readbale title
         'CHANNEL_LANGUAGE': getlang('en').id,                   # language code of channel
         'CHANNEL_THUMBNAIL': 'http://quantlabs.net/blog/wp-content/uploads/2015/11/pythonlogo.jpg', # (optional) local path or url to image file
-        'CHANNEL_DESCRIPTION': 'This channel was created from the files in the '
-                               'content/ dir and the metadata provided in Python'
+        'CHANNEL_DESCRIPTION': 'This channel was created from the files in the ' 
+                               'content/ dir and metadata specified in Python'
     }
 
 
@@ -217,6 +219,34 @@ class SampleChef(SushiChef):
         )
         videos_folder.add_child(video_node)
 
+        youtube_id='VJyk81HmcZQ'
+        video_node2 = VideoNode(
+            source_id='kavideosample',
+            title='Estimating division that results in non whole numbers',
+            author='Sal Khan',
+            description='Video description would go here',
+            language=getlang('en').id,
+            license=get_license(licenses.CC_BY, copyright_holder='Khan Academy'),
+            derive_thumbnail=True,  # video-specicig flag
+            thumbnail=None,
+            files=[
+                YouTubeVideoFile(youtube_id=youtube_id, high_resolution=False, language='en')
+            ]
+        )
+        videos_folder.add_child(video_node2)
+        # add all subtitles
+        yt_resource = YouTubeResource('https://youtube.com/watch?v='+youtube_id)
+        result = yt_resource.get_resource_subtitles()
+        lang_codes = []
+        for lang_code, lang_subs in result['subtitles'].items():
+            for lang_sub in lang_subs:
+                if lang_sub['ext'] == 'vtt' and lang_code not in lang_codes:
+                    lang_codes.append(lang_code)
+        for lang_code in lang_codes:
+            if is_youtube_subtitle_file_supported_language(lang_code):
+                video_node2.add_file(
+                    YouTubeSubtitleFile(youtube_id=youtube_id, language=lang_code)
+                )
 
 
     def create_exercise_nodes(self, channel):
