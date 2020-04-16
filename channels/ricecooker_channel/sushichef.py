@@ -53,11 +53,11 @@ class SampleChef(SushiChef):
     def create_content_nodes(self, channel):
         """
         This function uses the methods `add_child` and `add_file` to build the
-        hierarchy of topic nodes and content nodes. Every content node is associated
-        with the underlying file node.
+        hierarchy of topic nodes (nested folder structure) and content nodes.
+        Every content node is associated with one or more files.
         """
         content_nodes_folder = TopicNode(
-            source_id='121232ms',
+            source_id='uniqid001',
             title='Content Nodes',
             description='Put folder description here',
             author=None,
@@ -68,7 +68,7 @@ class SampleChef(SushiChef):
 
         # AUDIO
         audio_nodes_folder = TopicNode(
-            source_id='138iuh23iu',
+            source_id='uniqid002',
             title='Audio Files Folder',
             description='Put folder description here',
             author=None,
@@ -78,7 +78,7 @@ class SampleChef(SushiChef):
         content_nodes_folder.add_child(audio_nodes_folder)
 
         audio_node = AudioNode(
-            source_id='940ac8ff',
+            source_id='uniqid003',
             title='Whale sounds',
             author='First Last (author\'s name)',
             description='Put file description here',
@@ -89,7 +89,7 @@ class SampleChef(SushiChef):
         )
         audio_nodes_folder.add_child(audio_node)
         audio_file = AudioFile(
-            path='./content/ricecooker-channel-files/Whale_sounds.mp3',
+            path='./content/ricecooker-channel-files/Whale_sounds.mp3',  # note path can also be a URL
             language=getlang('en').id
         )
         audio_node.add_file(audio_file)
@@ -97,7 +97,7 @@ class SampleChef(SushiChef):
 
         # DOCUMENTS
         documents_folder = TopicNode(
-            source_id='asanlksnaklsn',
+            source_id='uniqid004',
             title='Document Nodes',
             description='Put folder description here',
             author=None,
@@ -107,7 +107,7 @@ class SampleChef(SushiChef):
         content_nodes_folder.add_child(documents_folder)
 
         document_node = DocumentNode(
-            source_id='80b7136f',
+            source_id='uniqid005',
             title='The Supreme Court\u2019s Ruling in Brown vs. Board of Education',
             author='First Last (author\'s name)',
             description='Put file description here',
@@ -115,7 +115,7 @@ class SampleChef(SushiChef):
             license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
             thumbnail=None,
             files=[DocumentFile(
-                        path='./content/ricecooker-channel-files/commonlit_the-supreme-court-s-ruling-in-brown-vs-board-of-education_student.pdf',
+                        path='./content/ricecooker-channel-files/brown-vs-board-of-education.pdf',
                         language=getlang('en').id
                 )]
         )
@@ -124,7 +124,7 @@ class SampleChef(SushiChef):
 
         # HTML5 APPS
         html5apps_folder = TopicNode(
-            source_id='asasa331',
+            source_id='uniqid006',
             title='HTML5App Nodes',
             description='Put folder description here',
             author=None,
@@ -133,53 +133,9 @@ class SampleChef(SushiChef):
         )
         content_nodes_folder.add_child(html5apps_folder)
 
-        html5_node_a = HTML5AppNode(
-            source_id='302723b4',
-            title='Sample React app',
-            author='First Last (author\'s name)',
-            description='Put file description here',
-            language=getlang('en').id,
-            license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
-            thumbnail='./content/ricecooker-channel-files/html5_react.png',
-            files=[HTMLZipFile(
-                      path='./content/ricecooker-channel-files/html5_react.zip',
-                      language=getlang('en').id
-                 )]
-        )
-        html5apps_folder.add_child(html5_node_a)
 
-        html5_node_b = HTML5AppNode(
-            source_id='3f91184e',
-            title='Sample Vue.js app',
-            author='First Last (author\'s name)',
-            description='Put file description here',
-            language=getlang('en').id,
-            license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
-            thumbnail='./content/ricecooker-channel-files/html5_vuejs.jpg',
-            files=[HTMLZipFile(
-                      path='./content/ricecooker-channel-files/html5_vuejs.zip',
-                      language=getlang('en').id
-                 )]
-        )
-        html5apps_folder.add_child(html5_node_b)
-
-        html5_node_c = HTML5AppNode(
-            source_id='0aec4296',
-            title='Sample wget-scraped web content',
-            author='First Last (author\'s name)',
-            description='Put file description here',
-            language=getlang('en').id,
-            license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
-            thumbnail='./content/ricecooker-channel-files/html5_wget_scraped.jpg',
-            files=[HTMLZipFile(
-                      path='./content/ricecooker-channel-files/html5_wget_scraped.zip',
-                      language=getlang('en').id
-                 )]
-        )
-        html5apps_folder.add_child(html5_node_c)
-
-        html5_node_d = HTML5AppNode(
-            source_id='somenewuniqid',
+        html5_node = HTML5AppNode(
+            source_id='uniqid007',
             title='HTMLWeb capabilities test',
             author='First Last (author\'s name)',
             description='Tests different HTML/JS capabilities. What capabilities are allowed and disallowed by the sandboxed iframe used to render HTML5App nodes on Kolibri.',
@@ -191,11 +147,27 @@ class SampleChef(SushiChef):
                       language=getlang('en').id
                  )]
         )
-        html5apps_folder.add_child(html5_node_d)
+        html5apps_folder.add_child(html5_node)
+
+        html5_node2 = HTML5AppNode(
+            source_id='uniqid008',
+            title='Sample Vue.js app',
+            author='First Last (author\'s name)',
+            description='Put file description here',
+            language=getlang('en').id,
+            license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
+            thumbnail='./content/ricecooker-channel-files/html5_vuejs.jpg',
+            files=[HTMLZipFile(
+                      path='./content/ricecooker-channel-files/html5_vuejs.zip',
+                      language=getlang('en').id
+                 )]
+        )
+        html5apps_folder.add_child(html5_node2)
+
 
         # VIDEOS
         videos_folder = TopicNode(
-            source_id='121213m3m3',
+            source_id='uniqid009',
             title='Video Nodes',
             description='Put folder description here',
             author=None,
@@ -204,7 +176,7 @@ class SampleChef(SushiChef):
         )
         content_nodes_folder.add_child(videos_folder)
         video_node = VideoNode(
-            source_id='9e355995',
+            source_id='uniqid010',
             title='Wave particle duality explained in 2 mins',
             author='First Last (author\'s name)',
             description='Put file description here',
@@ -221,7 +193,7 @@ class SampleChef(SushiChef):
 
         youtube_id='VJyk81HmcZQ'
         video_node2 = VideoNode(
-            source_id='kavideosample',
+            source_id=youtube_id,  # usually set source_id to youtube_id
             title='Estimating division that results in non whole numbers',
             author='Sal Khan',
             description='Video description would go here',
@@ -230,23 +202,12 @@ class SampleChef(SushiChef):
             derive_thumbnail=True,  # video-specicig flag
             thumbnail=None,
             files=[
-                YouTubeVideoFile(youtube_id=youtube_id, high_resolution=False, language='en')
+                YouTubeVideoFile(youtube_id=youtube_id, high_resolution=False, language='en'),
+                YouTubeSubtitleFile(youtube_id=youtube_id, language='ko')
             ]
         )
         videos_folder.add_child(video_node2)
-        # add all subtitles
-        yt_resource = YouTubeResource('https://youtube.com/watch?v='+youtube_id)
-        result = yt_resource.get_resource_subtitles()
-        lang_codes = []
-        for lang_code, lang_subs in result['subtitles'].items():
-            for lang_sub in lang_subs:
-                if lang_sub['ext'] == 'vtt' and lang_code not in lang_codes:
-                    lang_codes.append(lang_code)
-        for lang_code in lang_codes:
-            if is_youtube_subtitle_file_supported_language(lang_code):
-                video_node2.add_file(
-                    YouTubeSubtitleFile(youtube_id=youtube_id, language=lang_code)
-                )
+
 
 
     def create_exercise_nodes(self, channel):
@@ -257,7 +218,7 @@ class SampleChef(SushiChef):
 
         # EXERCISES
         exercices_folder = TopicNode(
-            source_id='mdmdmai3i13',
+            source_id='uniqid011',
             title='Exercise Nodes',
             description='Put folder description here',
             author=None,
@@ -266,8 +227,8 @@ class SampleChef(SushiChef):
         )
         channel.add_child(exercices_folder)
 
-        exercise2a = ExerciseNode(
-            source_id='asisis9',
+        exercise1 = ExerciseNode(
+            source_id='uniqid012',
             title='Basic questions',
             author='LE content team',
             description='Showcase of the simple exercises supported by Ricecooker and Studio',
@@ -286,94 +247,26 @@ class SampleChef(SushiChef):
                         question = "Which numbers are even?\n\nTest local image include: ![](content/ricecooker-channel-files/html5_vuejs.jpg)",
                         correct_answers = ["2", "4",],
                         all_answers = ["1", "2", "3", "4", "5"],
-                        # hints?
+                        hints = ["There are two answers.", "Both answers are multiples of two."]
                 ),
                 SingleSelectQuestion(
                         id='ex2aQ2',
                         question = "What is 2 times 3?",
                         correct_answer = "6",
                         all_answers = ["2", "3", "5", "6"],
-                        # hints?
                 ),
                 InputQuestion(
                         id='ex2aQ3',
                         question = "Name a factor of 10.",
                         answers = ["1", "2", "5", "10"],
-                        # hints?
                 )
             ]
         )
-        exercices_folder.add_child(exercise2a)
-
-
-
-        exercise_lit = ExerciseNode(
-            source_id='commonlit',
-            title='Preguntas de evaluación',
-            author='CommonLit team',
-            description='Pregunta de test con markup <pre>',
-            language=getlang('es').id,
-            license=get_license(licenses.CC_BY, copyright_holder='Copyright holder name'),
-            thumbnail=None,
-            exercise_data={
-                'mastery_model': exercises.M_OF_N,         # or exercises.DO_ALL
-                'randomize': True,
-                'm': 1,
-                'n': 1,
-            },
-            questions=[
-                SingleSelectQuestion(
-                        id='q1',
-                        question = """
-
-#### El camino no elegido
-
-```
-
-Dos caminos se bifurcaban en un bosque amarillo,                 [1]
-Y apenado por no poder tomar los dos
-Siendo un viajero solo, largo tiempo me paré
-Mirando uno de ellos tan lejos como pude,
-Hasta donde se perdía en la espesura;                            [5]
-
-Entonces tomé el otro sin comparar —
-Quizás era la merecida elección
-Pues era tupido y deseaba una historia;
-Aunque en realidad ninguno
-Tenía mucho que contar.                                          [10]
-
-Y ambos esa mañana yacían cubiertos,
-Del mismo modo, por una manta intacta de hojas,
-¡Oh, guardé aquel primero para otro día!
-Aun sabiendo el modo en que las cosas siguen adelante,
-Dudé que regresaría.                                             [15]
-
-Estaré diciendo esto con un suspiro
-En un futuro lejano:
-Dos caminos se bifurcaban en un bosque y yo —
-Yo tomé el menos transitado,
-Y eso hizo toda la diferencia.                                   [20]
-```
-
-**¿Por qué dice el narrador en la línea 7 que “Quizás era la merecida elección”?**
-""",
-                        correct_answer = "Teme haber elegido el camino equivocado.",
-                        all_answers = [
-                            "Quiere sentir que ha elegido acertadamente.",
-                            "Teme haber elegido el camino equivocado.",
-                            "Está seguro de que le va a cambiar la vida.",
-                            "Piensa que será el paseo más pintoresco.",
-                        ],
-                ),
-            ]
-        )
-        exercices_folder.add_child(exercise_lit)
-
-
+        exercices_folder.add_child(exercise1)
 
         # LOAD JSON DATA (as string) FOR PERSEUS QUESTIONS
-        SAMPLE_PERSEUS_4_JSON = open('./content/ricecooker-channel-files/sample_perseus04.json','r').read()
-        exercise2b = ExerciseNode(
+        SAMPLE_PERSEUS_4_JSON = open('./content/ricecooker-channel-files/perseus_graph_question.json','r').read()
+        exercise2 = ExerciseNode(
             source_id='baszzzs1',
             title='Perseus questions',
             author='LE content team',
@@ -384,8 +277,8 @@ Y eso hizo toda la diferencia.                                   [20]
             exercise_data={
                 'mastery_model': exercises.M_OF_N,         # or exercises.DO_ALL
                 'randomize': True,
-                'm': 2,
-                'n': 3,
+                'm': 1,
+                'n': 1,
             },
             questions=[
                 PerseusQuestion(
@@ -395,7 +288,7 @@ Y eso hizo toda la diferencia.                                   [20]
                 ),
             ]
         )
-        exercices_folder.add_child(exercise2b)
+        exercices_folder.add_child(exercise2)
 
 
 

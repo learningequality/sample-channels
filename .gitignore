@@ -10,9 +10,6 @@ contentnodes/html5_wget_scraped2
 
 
 
-channels/ricecooker_channel/data
-channels/ricecooker_channel/content
-
 channels/csv_channel/content/sample-csv-channel-root
 channels/csv_channel/chefdata/trees/ricecooker_json_tree.json
 channels/csv_exercises/chefdata/trees/ricecooker_json_tree.json

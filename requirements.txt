@@ -1,2 +1,2 @@
-ricecooker>=0.6.38
+ricecooker>=0.6.42
 pyflakes>=1.6.0
