@@ -7,32 +7,25 @@ and sample code that shows the different methods for uploading content into Koli
 
 Links
 -----
-
-  - Quickstart: https://github.com/learningequality/ricecooker/blob/master/docs/tutorial/quickstart.ipynb
-  - Ricecooker README: https://github.com/learningequality/ricecooker/blob/master/README.md
-  - Ricecooker docs: https://github.com/learningequality/ricecooker/tree/master/docs
-  - Tutorial: https://docs.google.com/document/d/1iiwce8B_AyJ2d6K8dYBl66n9zjz0zQ3G4gTrubdk9ws/edit
-  - [sample channels](./channels)  
+  - Content Integration Guide: https://learningequality.org/r/integration-guide
+  - Ricecooker docs: https://ricecooker.readthedocs.io/
+  - [sample channels](./channels)
   - [sample content types](./contentnodes)
-
 
 
 Technical Summary
 -----------------
 
-The following options are available for importing content into Kolibri Studio:
-  - Manual upload of content through the studio web interface
-     - GOOD FOR: one off tests,
-     - BAD FOR: large channels, channels that need to be updated regularly
-  - Studio low level internal API (**not recommended**, use `ricecooker` instead)
-  - Ricecooker interfaces, based on the [`ricecooker`](https://github.com/learningequality/ricecooker) library:
-      - CSV interface, see [channels/csv_channel](./channels/csv_channel):
-         - GOOD FOR: quick prototypes, non-technical project lead (no need for code, use Excel to prepare CSVs)
-         - BAD FOR: large channels, channels that need to be updated regularly
-      - JSON tree interface, see [channels/jsontree_channel](./channels/jsontree_channel):
-         - GOOD FOR: if content structure can be generated from existing code in other languages (e.g. ruby/js)
+The following options are available for integrating content into Kolibri Studio:
+  - Integration Method 1: manual content upload through the Studio web interface
+     - USE FOR: small and medium size channels, upload files from your computer, maximum control of channel structure
+     - NOT GOOD FOR: large channels or channels that need to be updated regularly
+  -  Integration Method 2: Upload content using a content integration script based
+     on the [`ricecooker`](https://github.com/learningequality/ricecooker) package:
       - Python interface, see [channels/ricecooker_channel](./channels/ricecooker_channel):
-         - GOOD FOR: most control and extensibility
+         - USE FOR: most channels, full control and extensibility throug Python scripts
+      - CSV workflow, see [channels/csv_channel](./channels/csv_channel):
+         - GOOD FOR: non-technical people (no need for coding; use Excel to metadata)
 
 
 
@@ -45,16 +38,14 @@ Install
        pip install -r requirements.txt
 
 2. Crete an account on [Kolibri Studio](http://studio.learningequality.org/)
-   and save your access token to the file `credentials/studiotoken.txt` (on a single line)
+   then obtain your Access Token from the [settings page](https://studio.learningequality.org/settings/tokens).
 
-3. Follow the instructions in the README.md files in each sample channel directory.
-
+3. Follow the instructions in the `README.md` files of each sample channel.
 
 
 
 Further reading
-===============
-
-To learn more about the Kolibri Content Platform, see the 
-[ricecooker docs](https://github.com/learningequality/ricecooker/tree/master/docs).
-
+---------------
+To learn more about content integration into the Kolibri ecosystem, read the
+comprehensive [Content Integration Guide](https://learningequality.org/r/integration-guide)
+while more technical details see the [Ricecooker Docs](https://ricecooker.readthedocs.io/).
