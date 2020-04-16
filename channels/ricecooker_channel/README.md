@@ -39,14 +39,14 @@ Use case
 Usage
 -----
 
-    ./sushichef.py  --reset --token="../../credentials/studiotoken.txt" --thumbnails
+    ./sushichef.py  --reset --token=<YOURSTUDIOTOKEN> --thumbnails
 
 By default ricecooker will cache the contents of every local path or URL it encounters.
 If you modify the contents of a local file or the file at a given URL is updated,
 you'll have to run the chef using he `--update` argument to bypass the cache:
 
 
-    ./sushichef.py  --reset --token="../../credentials/studiotoken.txt" --thumbnails --update
+    ./sushichef.py  --reset --token=<YOURSTUDIOTOKEN> --thumbnails --update
 
 
 See all CLI args and options here:

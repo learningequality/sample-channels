@@ -107,8 +107,7 @@ Usage
     # copy files from ../contentnodes/?? to content/sample-csv-channel-root/
     ./update.sh
 
-    ./linecook.py -v --reset \
-      --token="../../credentials/studiotoken.txt" \
+    ./linecook.py -v --reset --token=<YOURSTUDIOTOKEN> \
       --channeldir='./content/sample-csv-channel-root'
 
 If you get an error when running the linecook script (in the end), you might

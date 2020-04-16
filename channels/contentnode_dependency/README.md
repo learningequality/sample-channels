@@ -21,7 +21,7 @@ Use case
 Usage
 -----
 
-    ./sushichef.py -v --reset --token="../../credentials/studiotoken.txt"
+    ./sushichef.py -v --reset --token=<YOURSTUDIOTOKEN>
 
 
 

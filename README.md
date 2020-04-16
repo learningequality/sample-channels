@@ -15,7 +15,6 @@ Links
 
 Technical Summary
 -----------------
-
 The following options are available for integrating content into Kolibri Studio:
   - Integration Method 1: manual content upload through the Studio web interface
      - USE FOR: small and medium size channels, upload files from your computer, maximum control of channel structure

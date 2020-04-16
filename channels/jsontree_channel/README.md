@@ -36,7 +36,7 @@ Usage
     # copy files from ../contentnodes/?? to content/sample-json-channel-files/
     ./update.sh
 
-    ./jsontreechef.py -v --reset --token="../../credentials/studiotoken.txt"
+    ./jsontreechef.py -v --reset --token=<YOURSTUDIOTOKEN>
 
 If you get an error when running the linecook script (in the end), you might
 have to change the channel's `source_id` proprty in `chefdata/trees/sample_ricecooker_json_tree.json`,

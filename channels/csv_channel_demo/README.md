@@ -38,7 +38,7 @@ This channel was created from a hierarchy of folders and files in the local file
 
 
     export STUDIO_URL="https://develop.studio.learningequality.org"
-    ./sushichef.py -v --reset --token=/Users/ivan/.studiotoken  --channeldir=channelrootfolder
+    ./sushichef.py -v --reset --token=<YOURSTUDIOTOKEN> --channeldir=channelrootfolder
 
 
 

@@ -47,8 +47,7 @@ Install
 Usage
 -----
 
-    ./linecook.py -v --reset \
-      --token="../../credentials/studiotoken.txt" \
+    ./linecook.py --reset --token=<YOURSTUDIOTOKEN> \
       --channeldir='./content/sample-csv-channel-root'
 
 If you get an error when running the linecook script (in the end), you have to
