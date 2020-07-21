@@ -1,6 +1,19 @@
 
 credentials
 
+# chefdata dirs and logs
+channels/ricecooker_channel/chefdata
+channels/ricecooker_channel/logs
+
+channels/csv_channel/chefdata
+channels/csv_channel/logs
+
+channels/csv_exercises/chefdata
+channels/csv_exercises/logs
+
+
+
+
 contentnodes/html5_react/webroot
 contentnodes/html5_wget_scraped/webroot
 contentnodes/html5_vuejs/webroot
@@ -10,7 +23,6 @@ contentnodes/html5_wget_scraped2
 
 
 
-channels/csv_channel/content/sample-csv-channel-root
 channels/csv_channel/chefdata/trees/ricecooker_json_tree.json
 channels/csv_exercises/chefdata/trees/ricecooker_json_tree.json
 
@@ -19,7 +31,6 @@ channels/souschef_channel/chefdata
 
 channels/jsontree_channel/content/sample-json-channel-files
 
-channels/csv_channel_demo/channelrootfolder
 
 
 
@@ -37,7 +48,6 @@ node_modules
 contentnodes/*/yarn.lock
 
 
-csv_channel/content/sample-csv-channel-root
 json_channel/content/sample-json-channel-files
 
 restore

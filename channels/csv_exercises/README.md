@@ -10,7 +10,7 @@ Recall the CSV-based workflow for reads data from the following places:
       - Channel metadata provided in Chaannel.csv
       - Files metadata provided in Content.csv
 
-The CSV exercises workflow requires at least two additional files
+The CSV exercises workflow requires at two additional files:
   - Exercises.csv to store exercise metadata and master model
   - ExerciseQuestions.csv to store individual questions
 
@@ -29,9 +29,8 @@ Inputs:
 
 See the [csv_channel/README.md](../csv_channel/README.md) for info about CSV channel metadata.
 
-See https://github.com/ivanistheone/ricecooker/blob/feature/csvexercises/docs/csv_exercises.md
-for instructions specific to CSV exercises.
-
+See https://ricecooker.readthedocs.io/en/latest/concepts/content_workflows.html#csv-metadata-workflow
+for general info about CSV metadata uploads. This sample channel is specific to CSV exercises.
 
 
 Install
@@ -39,16 +38,14 @@ Install
 
     virtualenv -p python3  venv
     source venv/bin/activate
-    pip install -r ../../requirements.txt
-    pip install git+https://github.com/ivanistheone/ricecooker@feature/csvexercises
-
+    pip install -r requirements.txt
 
 
 Usage
 -----
+Assuming Linux or other UNIX system, run the command:
 
-    ./linecook.py --reset --token=<YOURSTUDIOTOKEN> \
-      --channeldir='./content/sample-csv-channel-root'
+    ./linecook.py --token=<STUDIOAPITOKEN> --channeldir='./content/sample-csv-channel-root'
 
 If you get an error when running the linecook script (in the end), you have to
 change the channel Source ID column in `Channel.csv`, or ask the LE team to
