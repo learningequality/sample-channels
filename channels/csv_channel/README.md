@@ -1,30 +1,32 @@
-CSV-based workflow
-==================
+CSV Workflow
+============
 
-Simplified interface for ricecooker library that automatically reads:
-  - content files from the local file system
-  - content structure from the filesystem hierarchy
+Alternative approach for specifying the metadata for content nodes uploaded using
+the ricecooker library (bulk upload of files with metadata prepared in Spreadsheet).
+  - source content files loaded from the local file system
+  - channel structure from the filesystem hierarchy
   - metadata from two manually curated/edited CSV files:
-      - Channel metadata provided in Chaannel.csv
-      - Files metadata provided in Content.csv
-
+      - Channel metadata provided in `Chaannel.csv`
+      - Content node metadata provided in `Content.csv`
 
 
 Inputs:
   - Channel files are organized into a directory hierarchy on the local filesystem
-  - Supported formats are `document`(PDF), `audio` (mp3), `video` (mp4), and `html5` (zip), but not exercises
-  - Thumbnails (`.jpg`) can be placed along side the main content files
+  - Supported formats are `document`(PDF), `audio` (mp3), `video` (mp4), and `html5` (zip),
+     but not exercises (see `csv_exercises` sample channel for that).
   - Channel metadata provided in `Chaannel.csv`
   - Files metadata provided in `Content.csv`
 
 
+
 Use case
 --------
-  - Good interface for both developers and content experts
+  - Good interface for both developers and content experts.
   - Developers must populate a directory structure containing different content nodes
-    and ensure the appropriate metadata is in `Channel.csv` and `Content.csv`
+    and ensure the appropriate metadata is in `Channel.csv` and `Content.csv`.
   - Content experts can author, edit, and Q/A titles, descriptions, and other
-    metadata without the need for support from developers
+    metadata without the need for support from developers.
+
 
 
 Metadata details
@@ -96,19 +98,13 @@ Install
 
     virtualenv -p python3  venv
     source venv/bin/activate
-    pip install -r ../../requirements.txt
-
+    pip install -r requirements.txt
 
 
 Usage
 -----
 
-
-    # copy files from ../contentnodes/?? to content/sample-csv-channel-root/
-    ./update.sh
-
-    ./linecook.py -v --reset --token=<YOURSTUDIOTOKEN> \
-      --channeldir='./content/sample-csv-channel-root'
+    ./linecook.py --token=<STUDIO_API_TOKEN> --channeldir='./content/sample-csv-channel-root'
 
 If you get an error when running the linecook script (in the end), you might
 have to change the channel source id in `Channel.csv`, or ask the LE team to
@@ -118,6 +114,4 @@ This above commands will create or update the channel on Kolibri Studio. As part
 of the upload process, the file `chefdata/trees/ricecooker_json_tree.json` which
 shows the exact data and metadata that was uploaded to Kolibri Studio. You can use
 this file to debug all kinds of problems: missing descriptions, bad formats, etc.
-
-
 
