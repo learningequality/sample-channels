@@ -1,8 +1,8 @@
-Ricecooker python interface
+Ricecooker Python interface
 ===========================
 Using the `ricecooker` Python library is the most versatile and powerful approach
 for uploading content to Kolibri Studio.
-A note terminology: content integration scripts are called **sushi chef** scripts.
+A note on terminology: content integration scripts are called **sushi chef** scripts.
 
 
 What is a content integration script?
@@ -29,31 +29,39 @@ Outputs:
 
 Use case
 --------
-  - Large channels (100+ nodes) which would take too long to upload manually
-  - Channels that need to be updated regularly (e.g. website with new lessons published every month)
-  - Scraping web content (download HTML/js/css/assets from a website and package as standalone `HTML5Zip` file)
-  - Use for content that requires transformations (format conversions or video compression)
-  - Most of the channel in the Kolibri Content Library are created this way
+  - Large channels (100+ nodes) which would take too long to upload manually.
+  - Channels that need to be updated regularly (e.g. website with new lessons published every month).
+  - Scraping web content: download HTML/js/css/assets from a website and package
+    the webpage in a standalone, self-contained `HTML5Zip` file.
+  - Use for content that requires transformations (format conversions or video compression).
+  - Most of the channel in the Kolibri Content Library are created this way so
+    they can be updated as new materials are added to the content source.
 
 
-Usage
------
+Install
+-------
 
-    ./sushichef.py  --reset --token=<YOURSTUDIOTOKEN> --thumbnails
-
-By default ricecooker will cache the contents of every local path or URL it encounters.
-If you modify the contents of a local file or the file at a given URL is updated,
-you'll have to run the chef using he `--update` argument to bypass the cache:
+    virtualenv -p python3  venv
+    source venv/bin/activate
+    pip install -r requirements.txt
 
 
-    ./sushichef.py  --reset --token=<YOURSTUDIOTOKEN> --thumbnails --update
+Run
+---
+
+    ./sushichef.py --token=<YOURSTUDIOTOKEN> --thumbnails
+
+By default ricecooker will cache the contents of every URL-path it encounters.
+If the contents file at a given URL is updated, you'll have to run the chef using
+the `--update` argument to bypass the cache:
 
 
-See all CLI args and options here:
+    ./sushichef.py  --token=<YOURSTUDIOTOKEN> --thumbnails --update
+
+
+See all CLI args and options can be viewed using:
 
     ./sushichef.py -h
-
-
 
 
 
