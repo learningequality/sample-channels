@@ -1,2 +1,2 @@
-Title,Description,Domain,Source ID,Language,Thumbnail
-Sample CSV channel with Exercises,This channel was created from the files in the content/ directory and the metadata stored in CSV files,<yourdomain.org>,<unique id for the channel>,en,sample-csv-channel-root/channel_thumbnail.jpg
+"Title","Description","Domain","Source ID","Language","Thumbnail"
+"Sample CSV channel with Exercises","This channel was created from the files in the content/ directory and the metadata stored in CSV files","<yourdomain.org>","<unique id for the channel>","en",

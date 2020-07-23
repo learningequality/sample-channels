@@ -1,6 +1,6 @@
-Path *,Title *,Source ID *,Description,Author,Language,License ID *,License Description,Copyright Holder,Number Correct,Out of Total,Randomize,Thumbnail
-sample-csv-channel-root/exercise1,First Exercise,exrc1,This is a really math exercise that will appear in the channel root.,Ivan Savov,en,CC BY,,Learning Equality,1,2,TRUE,sample-csv-channel-root/algebra_exercise_thumb.png
-sample-csv-channel-root/contentnodes/audio/Wzexercise,Second Exercise,exrc2,An exrcise ,Ivan Savov,fr,CC BY,,Learning Equality,,,FALSE,sample-csv-channel-root/contentnodes/audio/WZ_exercise_thumbnail.png
-sample-csv-channel-root/exercises/exercise3,Third Exercise,exrc3,An exercise in the subfolder exercsies/,Ivan Savov,en,CC BY,,Learning Equality,,,FALSE,
-sample-csv-channel-root/exercises/exercise4,Fourth Exercise,exrc4,An exercise that shows figures in question and use of LaTeX markup,Ivan Savov,en,CC BY,,Learning Equality,,,FALSE,
-sample-csv-channel-root/exercises/exercise5,Fifth Exercise,exrc5,An exercise which shows figures as answers,Ivan Savov,en,CC BY,,Learning Equality,,,FALSE,
+"Path *","Title *","Source ID *","Description","Author","Language","License ID *","License Description","Copyright Holder","Number Correct","Out of Total","Randomize","Thumbnail"
+"exercises-csv-channel-root/mathexercises/exercise1","First Exercise","exrc1","This is the first math exercise that will appear in the Math Exercises topic.","Ivan Savov","en","CC BY",,"Learning Equality",1,2,"TRUE",
+"exercises-csv-channel-root/mathexercises/exercise2","Second Exercise","exrc2","एक दूसरा गणित अभ्यास","Ivan Savov","hi","CC BY",,"Learning Equality",,,"FALSE",
+"exercises-csv-channel-root/mathexercises/exercise3","Third Exercise","exrc3","An exercise that shows figures in question and use of LaTeX markup","Ivan Savov","en","CC BY",,"Learning Equality",,,"FALSE",
+"exercises-csv-channel-root/physicsexercises/exercise4","Fourth Exercise","exrc4","A physics exercise about momentum","Ivan Savov","en","CC BY",,"Learning Equality",,,"FALSE",
+"exercises-csv-channel-root/physicsexercises/exercise5","Fifth Exercise","exrc5","An exercise that shows figures as answers","Ivan Savov","en","CC BY",,"Learning Equality",,,"FALSE",
